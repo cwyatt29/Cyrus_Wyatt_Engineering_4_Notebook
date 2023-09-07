@@ -81,7 +81,7 @@ Pictures / Gifs of your work should go here. You need to communicate what your t
 This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
-[code]]() **COMMENT YOUR CODE** if you want full credit. 
+[code]() **COMMENT YOUR CODE** if you want full credit. 
 
 ### Reflection
 
