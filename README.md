@@ -24,7 +24,7 @@ use vs code to make the onboard LED on the Rasberry Pi Pico blink.
 No wiring was needed because the Pico has an onboard LED which can blink.
 ### Code
 
-[Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook#led_blink.py)
+[Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LED_blink.py)
 ### Reflection
 This assignment was very simple most of the command scripts we needed were in the instructions so all that was needed was to order them correctly and run the code. This code would be useful if you want to make sure your pico is functioning properly before launching a rocket or another flying projectile.
 
@@ -38,7 +38,7 @@ Create a code that will print a countdown into the serial monitor. Code should s
 
 
 ### Evidence 
-![Countdown](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Countdown%20GIf-min.gif)
+![Countdown](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart1)
 ### Wiring
 No wiring was needed for this because it is only in a serial monitor
 ### Code
