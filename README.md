@@ -55,13 +55,13 @@ Blink a red light each second of the countdown, and turn on a green LED to signi
 
 
 ### Evidence 
-
+![Lights](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/launchpad2.gif)
 ### Wiring
 
 
 ### Code
 
- [Code]()
+ [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart2)
 
 ### Reflection
 
