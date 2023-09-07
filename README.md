@@ -38,7 +38,7 @@ Create a code that will print a countdown into the serial monitor. Code should s
 
 
 ### Evidence 
-![Countdown](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart1)
+![Countdown](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Countdown%20GIf-min.gif)
 ### Wiring
 No wiring was needed for this because it is only in a serial monitor
 ### Code
