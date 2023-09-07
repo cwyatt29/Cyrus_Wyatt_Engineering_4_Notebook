@@ -3,7 +3,7 @@
 &nbsp;
 
 ## Table of Contents
-* [LED_blink.py](#led_blink.py)
+* [LED_blink.py](#led_blink)
 * [LaunchPadPart1](#LaunchPadPart1)
 * [LaunchPadPart2](#LaunchPadPart2)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
@@ -12,7 +12,7 @@
 &nbsp;
 
 
-## led_blink.py
+## led_blink
 
 ### Assignment Description
 use vs code to make the onboard LED on the Rasberry Pi Pico blink.
@@ -24,7 +24,7 @@ use vs code to make the onboard LED on the Rasberry Pi Pico blink.
 No wiring was needed because the Pico has an onboard LED which can blink.
 ### Code
 
-
+[Code]](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook#led_blink.py)
 ### Reflection
 This assignment was very simple most of the command scripts we needed were in the instructions so all that was needed was to order them correctly and run the code. This code would be useful if you want to make sure your pico is functioning properly before launching a rocket or another flying projectile.
 
@@ -44,12 +44,14 @@ No wiring was needed for this because it is only in a serial monitor
 ### Code
 
 
+ [Code]](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook#LaunchPadPart1)
 ### Reflection
 The command N -= 1 is used to minus one from the value of N every loop. This is useful to know because N - 1 will just print 9 and N = -1 will print -1. Other than that the code is simple. Also remember to use if N = 0 break which will prevent the code from going into negative values.
 
 ## LaunchPadPart2
 
 ### Assignment Description
+Blink a red light each second of the countdown, and turn on a green LED to signify liftoff.
 
 
 ### Evidence 
@@ -59,6 +61,7 @@ The command N -= 1 is used to minus one from the value of N every loop. This is 
 
 ### Code
 
+ [Code]]()
 
 ### Reflection
 
@@ -78,7 +81,7 @@ Pictures / Gifs of your work should go here. You need to communicate what your t
 This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+[code]]() **COMMENT YOUR CODE** if you want full credit. 
 
 ### Reflection
 
