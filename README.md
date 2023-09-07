@@ -5,6 +5,7 @@
 ## Table of Contents
 * [LED_blink.py](#led_blink.py)
 * [LaunchPadPart1](#LaunchPadPart1)
+* [LaunchPadPart2](#LaunchPadPart2)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
@@ -46,6 +47,20 @@ No wiring was needed for this because it is only in a serial monitor
 ### Reflection
 The command N -= 1 is used to minus one from the value of N every loop. This is useful to know because N - 1 will just print 9 and N = -1 will print -1. Other than that the code is simple. Also remember to use if N = 0 break which will prevent the code from going into negative values.
 
+## LaunchPadPart2
+
+### Assignment Description
+
+
+### Evidence 
+
+### Wiring
+
+
+### Code
+
+
+### Reflection
 
 
 ## Raspberry_Pi_Assignment_Template
