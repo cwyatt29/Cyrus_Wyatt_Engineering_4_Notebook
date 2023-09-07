@@ -19,12 +19,13 @@ use vs code to make the onboard LED on the Rasberry Pi Pico blink.
 
 ### Evidence 
 ![Blink](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/LED%20BLINK.gif)
-
+### Wiring
+No wiring was needed because the Pico has an onboard LED which can blink.
 ### Code
 
 
 ### Reflection
-
+This assignment was very simple most of the command scripts we needed were in the instructions so all that was needed was to order them correctly and run the code. This code would be useful if you want to make sure your pico is functioning properly before launching a rocket or another flying projectile.
 
 
 
@@ -32,17 +33,18 @@ use vs code to make the onboard LED on the Rasberry Pi Pico blink.
 ## LaunchPadPart1
 
 ### Assignment Description
-
+Create a code that will print a countdown into the serial monitor. Code should start at 10 and stop at 0.
 
 
 ### Evidence 
 ![Countdown](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Countdown%20GIf-min.gif)
-
+### Wiring
+No wiring was needed for this because it is only in a serial monitor
 ### Code
 
 
 ### Reflection
-
+The command N -= 1 is used to minus one from the value of N every loop. This is useful to know because N - 1 will just print 9 and N = -1 will print -1. Other than that the code is simple. Also remember to use if N = 0 break which will prevent the code from going into negative values.
 
 
 
