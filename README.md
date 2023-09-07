@@ -7,7 +7,7 @@
 * [LaunchPadPart1](#LaunchPadPart1)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
-* [Github Intro](#Github_Intro)
+* [Github_Intro](#Github_Intro)
 &nbsp;
 
 
@@ -90,7 +90,7 @@ Take a nice screenshot of your Onshape document.
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
-## Github Intro
+## Github_Intro
 
 ## Media Test
 
