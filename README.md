@@ -38,7 +38,7 @@ Create a code that will print a countdown into the serial monitor. Code should s
 
 
 ### Evidence 
-![Countdown](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart1)
+![Countdown](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Countdown%20GIf-min.gif)
 ### Wiring
 No wiring was needed for this because it is only in a serial monitor
 ### Code
@@ -81,7 +81,7 @@ Pictures / Gifs of your work should go here. You need to communicate what your t
 This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
-[code]]() **COMMENT YOUR CODE** if you want full credit. 
+[code]() **COMMENT YOUR CODE** if you want full credit. 
 
 ### Reflection
 
