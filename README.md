@@ -66,6 +66,25 @@ Blink a red light each second of the countdown, and turn on a green LED to signi
 ### Reflection
 The Pico uses GP ports instead of D ports it is important to remember to name them as GP. The long leg of the LED is the positive side. The green LEDs are very hard to see when it is bright so I used a blue LED that shows up better.
 
+## LaunchPadPart3
+
+### Assignment Description
+
+
+
+### Evidence 
+![]()
+### Wiring
+![]()
+
+### Code
+
+ [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart3)
+
+### Reflection
+
+
+
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description
