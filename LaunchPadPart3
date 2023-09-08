@@ -3,6 +3,7 @@ import time
 import digitalio
 
 N = 11 
+print('test')
 
 ledred = digitalio.DigitalInOut(board.GP13)
 ledred.direction = digitalio.Direction.OUTPUT
@@ -13,24 +14,27 @@ ledgreen.direction = digitalio.Direction.OUTPUT
 
 buttonpin = digitalio.DigitalInOut(board.GP0)
 buttonpin.direction = digitalio.Direction.INPUT
+buttonpin.pull = digitalio.Pull.UP
+while True:
 
-if buttonpin = True:
+    if buttonpin == False:
  
-    while True:
+        while True:
 
-    N -= 1 
+            N -= 1 
 
-    print(N)
+            print(N)
 
-    if N > 0:  
+            if N > 0:  
 
-        time.sleep(.5)
-        ledred.value = True
-        time.sleep(.5)
-        ledred.value = False
+                time.sleep(.5)
+                ledred.value = True
+                time.sleep(.5)
+                ledred.value = False
 
-    if N <= 0:
-        print('LIFT OFF')
-        ledgreen.value = True
-        time.sleep(2.5)
-        break
+            if N <= 0:
+                print('LIFT OFF')
+                ledgreen.value = True
+                time.sleep(2.5)
+                break
+    
