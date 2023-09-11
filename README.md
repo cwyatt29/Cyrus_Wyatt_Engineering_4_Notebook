@@ -6,6 +6,8 @@
 * [LED_blink.py](#led_blink)
 * [LaunchPadPart1](#LaunchPadPart1)
 * [LaunchPadPart2](#LaunchPadPart2)
+* [LaunchPadPart3](#launchpadpart3)
+* [LaunchPadPart4](#launchpadpart4)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
@@ -83,6 +85,22 @@ We need to add a button to our launch pad instead of using our code to begin the
 
 ### Reflection
 This was a good refresher for how button code works. This will be nice to look back at when we are making our projects later in the year. It is important to know whether you're pulling up or pulling down. Pull up means when you aren't pressing the button its seeing a true value. When you are Pulling down it means it will get a true value when the button is depressed. 
+
+## LaunchPadPart4
+
+### Assignment Description
+
+
+### Evidence 
+![LaunchPad4]()
+### Wiring
+![Wires]()
+
+### Code
+
+ [Code]()
+
+### Reflection
 
 
 ## Raspberry_Pi_Assignment_Template

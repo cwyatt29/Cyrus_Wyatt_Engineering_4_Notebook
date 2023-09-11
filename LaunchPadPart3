@@ -21,6 +21,9 @@ while True:
  
         while True:
 
+        
+
+
             N -= 1 
 
             print(N)
@@ -36,5 +39,9 @@ while True:
                 print('LIFT OFF')
                 ledgreen.value = True
                 time.sleep(2.5)
+                break
+            
+            if buttonpin.value == False 
+                print('ABORT')
                 break
     
