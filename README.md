@@ -75,7 +75,7 @@ We need to add a button to our launch pad instead of using our code to begin the
 ### Evidence 
 ![LaunchPad3](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/LaunchPad3.gif)
 ### Wiring
-![Wires]()
+![Wires](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/LP3%20wiring.jpg)
 
 ### Code
 
