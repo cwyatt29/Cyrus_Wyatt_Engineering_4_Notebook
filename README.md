@@ -69,7 +69,7 @@ The Pico uses GP ports instead of D ports it is important to remember to name th
 ## LaunchPadPart3
 
 ### Assignment Description
-
+We need to add a button to our launch pad instead of using our code to begin the countdown. When the button is pressed we need to start the countdown. We don't have a saftey in place but we could make it so that if it is pressed again it will stop the countdown and reset it.
 
 
 ### Evidence 
