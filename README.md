@@ -73,16 +73,16 @@ The Pico uses GP ports instead of D ports it is important to remember to name th
 
 
 ### Evidence 
-![]()
+![LaunchPad3](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/LaunchPad3.gif)
 ### Wiring
-![]()
+![Wires]()
 
 ### Code
 
  [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart3)
 
 ### Reflection
-
+This was a good refresher for how button code works. This will be nice to look back at when we are making our projects later in the year. It is important to know whether you're pulling up or pulling down. Pull up means when you aren't pressing the button its seeing a true value. When you are Pulling down it means it will get a true value when the button is depressed. 
 
 
 ## Raspberry_Pi_Assignment_Template

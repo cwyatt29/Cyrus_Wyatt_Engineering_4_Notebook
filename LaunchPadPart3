@@ -17,7 +17,7 @@ buttonpin.direction = digitalio.Direction.INPUT
 buttonpin.pull = digitalio.Pull.UP
 while True:
 
-    if buttonpin == False:
+    if buttonpin.value == False:
  
         while True:
 
