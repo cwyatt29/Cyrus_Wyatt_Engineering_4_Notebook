@@ -2,9 +2,9 @@ import board
 import time
 import digitalio
 import pwmio
-from adafruit_motor import serv
+from adafruit_motor import servo
 N = 11 
-print('test')
+print('test') #prints a message so I can quickly identify if there are errors
 
 ledred = digitalio.DigitalInOut(board.GP13)
 ledred.direction = digitalio.Direction.OUTPUT
@@ -16,30 +16,38 @@ ledgreen.direction = digitalio.Direction.OUTPUT
 buttonpin = digitalio.DigitalInOut(board.GP0)
 buttonpin.direction = digitalio.Direction.INPUT
 buttonpin.pull = digitalio.Pull.UP
+
+pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50)
+servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
+
 while True:
 
-    if buttonpin.value == False:
- 
-        while True:
+    servo1.angle = 0
 
-        
+        if buttonpin.value == False:
+    
+            while True:
 
-
-            N -= 1 
-
-            print(N)
-
-            if N > 0:  
-
-                time.sleep(.5)
-                ledred.value = True
-                time.sleep(.5)
-                ledred.value = False
-
-            if N <= 0:
-                print('LIFT OFF')
-                ledgreen.value = True
-                time.sleep(2.5)
-                break
             
-           
+
+
+                N -= 1 
+                print(N)
+
+                if N > 0:  
+                    
+                 time.sleep(.5)
+                    ledred.value = True
+                 time.sleep(.5)
+                  ledred.value = False
+
+
+                if N <= 0:
+                    
+                    print('LIFT OFF')
+                    ledgreen.value = True
+                    servo1.angle = 180
+                    time.sleep(2.5)
+                    break
+                
+            
