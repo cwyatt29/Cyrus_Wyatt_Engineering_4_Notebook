@@ -41,7 +41,5 @@ while True:
                 time.sleep(2.5)
                 break
             
-            if buttonpin.value == False 
-                print('ABORT')
-                break
+           
     
