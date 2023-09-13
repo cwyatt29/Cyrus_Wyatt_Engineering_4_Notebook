@@ -1,13 +1,13 @@
 import board
 import time
 
-N = 11 
+N = 11 #starts at 11 because the code automatically prints 10
 
 while True:
 
-    N -= 1 
+    N -= 1   #takes 1 from the value N working as a countdown
     print(N)
-    if N <= 0:
+    if N <= 0:  #when N is 0 or less than 0 print lift off then stop the code
         print('LIFT OFF')
         break
     time.sleep(1)
