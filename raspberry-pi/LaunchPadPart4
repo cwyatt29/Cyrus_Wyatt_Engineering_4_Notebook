@@ -19,10 +19,9 @@ buttonpin.pull = digitalio.Pull.UP
 
 pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50) #defines the servo and sets its pin to GP5 on the Pico
 servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)        #sets its rotation limit to 180 degrees 
+servo1.angle = 0                 #before the button is pressed this makes sure the servo is at 0 degrees
 
 while True:
-
-    servo1.angle = 0 #before the button is pressed this makes sure the servo is at 0 degrees
 
         if buttonpin.value == False:
     
