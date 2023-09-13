@@ -17,12 +17,12 @@ buttonpin = digitalio.DigitalInOut(board.GP0)
 buttonpin.direction = digitalio.Direction.INPUT
 buttonpin.pull = digitalio.Pull.UP
 
-pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50)
-servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
+pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50) #defines the servo and sets its pin to GP5 on the Pico
+servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)        #sets its rotation limit to 180 degrees 
 
 while True:
 
-    servo1.angle = 0
+    servo1.angle = 0 #before the button is pressed this makes sure the servo is at 0 degrees
 
         if buttonpin.value == False:
     
@@ -46,7 +46,7 @@ while True:
                     
                     print('LIFT OFF')
                     ledgreen.value = True
-                    servo1.angle = 180
+                    servo1.angle = 180 #rotate the servo when N is less than or equal to 0
                     time.sleep(2.5)
                     break
                 
