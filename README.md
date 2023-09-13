@@ -89,19 +89,19 @@ This was a good refresher for how button code works. This will be nice to look b
 ## LaunchPadPart4
 
 ### Assignment Description
-
+Building off of the previous assignments, add a servo that rotates 180 degrees when the countdown reaches zero to mimic the movment of a support tower breaking away when launching a rocket.
 
 ### Evidence 
-![LaunchPad4]()
+![LaunchPad4](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Launch%20Pad%204.gif)
 ### Wiring
-![Wires]()
+![Wires](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/LP4%20wiring.jpg)
 
 ### Code
 
- [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart4)
+[Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart4)
 
 ### Reflection
-
+all of the commands we needed were already provided on canvas but its important to understand what they're actually doing. 
 
 ## Raspberry_Pi_Assignment_Template
 
