@@ -5,11 +5,11 @@ import digitalio
 N = 11 
 
 ledred = digitalio.DigitalInOut(board.GP13)
-ledred.direction = digitalio.Direction.OUTPUT
+ledred.direction = digitalio.Direction.OUTPUT  # defines the red LED as an output and sets its pin as GP13 on the Pico
 
 
 ledgreen = digitalio.DigitalInOut(board.GP18)
-ledgreen.direction = digitalio.Direction.OUTPUT
+ledgreen.direction = digitalio.Direction.OUTPUT  # defines the green LED as an output and sets its pin as GP18 on the Pico
 
 
 while True:
@@ -23,11 +23,12 @@ while True:
         time.sleep(.5)
         ledred.value = True
         time.sleep(.5)
-        ledred.value = False
+        ledred.value = False        #blinks the LED once every second make sure to sleep it for.5 seconds if you do it every second it will blink every 2 seconds
+
 
     if N <= 0:
         print('LIFT OFF')
-        ledgreen.value = True
+        ledgreen.value = True     #turns on the green LED if N is less than or equal to 0, the light stays on for 2.5 seconds then turns off
         time.sleep(2.5)
         break
    
