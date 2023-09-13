@@ -46,7 +46,7 @@ No wiring was needed for this because it is only in a serial monitor
 ### Code
 
 
- [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook#LaunchPadPart1)
+ [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Launch%20Pad/LaunchPadPart1)
 ### Reflection
 The command N -= 1 is used to minus one from the value of N every loop. This is useful to know because N - 1 will just print 9 and N = -1 will print -1. Other than that the code is simple. Also remember to use if N = 0 break which will prevent the code from going into negative values.
 
@@ -63,7 +63,7 @@ Blink a red light each second of the countdown, and turn on a green LED to signi
 
 ### Code
 
- [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart2)
+ [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Launch%20Pad/LaunchPadPart2)
 
 ### Reflection
 The Pico uses GP ports instead of D ports it is important to remember to name them as GP. The long leg of the LED is the positive side. The green LEDs are very hard to see when it is bright so I used a blue LED that shows up better.
@@ -81,7 +81,7 @@ We need to add a button to our launch pad instead of using our code to begin the
 
 ### Code
 
- [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart3)
+ [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Launch%20Pad/LaunchPadPart3)
 
 ### Reflection
 This was a good refresher for how button code works. This will be nice to look back at when we are making our projects later in the year. It is important to know whether you're pulling up or pulling down. Pull up means when you aren't pressing the button its seeing a true value. When you are Pulling down it means it will get a true value when the button is depressed. 
@@ -98,7 +98,7 @@ Building off of the previous assignments, add a servo that rotates 180 degrees w
 
 ### Code
 
-[Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LaunchPadPart4)
+[Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Launch%20Pad/LaunchPadPart4)
 
 ### Reflection
 all of the commands we needed were already provided on canvas but its important to understand what they're actually doing. 
