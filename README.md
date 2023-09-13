@@ -102,58 +102,31 @@ Building off of the previous assignments, add a servo that rotates 180 degrees w
 
 ### Reflection
 all of the commands we needed were already provided on canvas but its important to understand what they're actually doing. 
+```python 
+pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50) 
+servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)        
+servo1.angle = 0                
+```
+the first line is defining the servo and telling the code which pin the servo is on. Duty cycle is the maximum frequency the servo will receive and frequency is the width of the pulses that the servo receives. The second line is making the 180 servo know that it can't go past a certain degree of rotation.
 
 ## Raspberry_Pi_Assignment_Template
-
 ### Assignment Description
-
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
-
 ### Evidence 
-
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
-
 ### Wiring
-
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
-
 ### Code
-[code]() **COMMENT YOUR CODE** if you want full credit. 
-
+[code]() **COMMENT YOUR CODE** 
 ### Reflection
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
-&nbsp;
-
 ## Onshape_Assignment_Template
-
 ### Assignment Description
-
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
-
 ### Part Link 
-
 [Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
-
 ### Part Image
-
-Take a nice screenshot of your Onshape document. 
-
 ### Reflection
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
-
-&nbsp;
 ## Github_Intro
-
 ### Media Test
-
 ### Test Link
 [testlink](https://www.google.com/search?q=matt+miller&rlz=1C1GCEU_enUS1072US1072&oq=matt+miller&gs_lcrp=EgZjaHJvbWUqDQgAEAAY4wIYsQMYgAQyDQgAEAAY4wIYsQMYgAQyCggBEC4YsQMYgAQyBwgCEAAYgAQyBwgDEC4YgAQyBwgEEAAYgAQyBwgFEC4YgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgATSAQgyMzgzajBqN6gCALACAA&sourceid=chrome&ie=UTF-8&safe=active&ssui=on)
-
 ### Test Image 
 ### ![TEST](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/TEST.jpg)
-
 ### Test GIF
 ### ![testgif](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Testgif.gif)
