@@ -11,7 +11,5 @@ mpu = adafruit_mpu6050.MPU6050(i2c)
 while True:
 
     xyz = mpu.acceleration
-    gyro = mpu.gyro
-
-    print(f"xyz{xyz}and angle{gyro}")
+    print(f"xyz{xyz}")
     time.sleep(.5)
