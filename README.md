@@ -8,6 +8,7 @@
 * [LaunchPadPart2](#LaunchPadPart2)
 * [LaunchPadPart3](#launchpadpart3)
 * [LaunchPadPart4](#launchpadpart4)
+* [CrashAvoidance1](#crashavoidancesystem1)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
@@ -109,7 +110,7 @@ servo1.angle = 0
 ```
 the first line is defining the servo and telling the code which pin the servo is on. Duty cycle is the maximum frequency the servo will receive and frequency is the width of the pulses that the servo receives. The second line is making the 180 servo know that it can't go past a certain degree of rotation.
 
-## Crash_Avoidance_System
+## Crash_Avoidance_System1
 
 ### Assignment Description
 
