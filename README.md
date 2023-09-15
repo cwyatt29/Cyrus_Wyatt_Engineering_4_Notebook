@@ -6,9 +6,9 @@
 * [LED_blink.py](#led_blink)
 * [LaunchPadPart1](#LaunchPadPart1)
 * [LaunchPadPart2](#LaunchPadPart2)
-* [LaunchPadPart3](#launchpadpart3)
-* [LaunchPadPart4](#launchpadpart4)
-* [CrashAvoidance1](#crashavoidancesystem1)
+* [LaunchPadPart3](#LaunchPadPart3)
+* [LaunchPadPart4](#LaunchPadPart4)
+* [CrashAvoidance1](#CrashAvoidanceSystem1)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
@@ -110,7 +110,7 @@ servo1.angle = 0
 ```
 the first line is defining the servo and telling the code which pin the servo is on. Duty cycle is the maximum frequency the servo will receive and frequency is the width of the pulses that the servo receives. The second line is making the 180 servo know that it can't go past a certain degree of rotation.
 
-## crashavoidancesystem1
+## CrashAvoidanceSystem1
 
 ### Assignment Description
 
