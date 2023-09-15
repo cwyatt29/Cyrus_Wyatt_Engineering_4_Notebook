@@ -110,7 +110,7 @@ servo1.angle = 0
 ```
 the first line is defining the servo and telling the code which pin the servo is on. Duty cycle is the maximum frequency the servo will receive and frequency is the width of the pulses that the servo receives. The second line is making the 180 servo know that it can't go past a certain degree of rotation.
 
-## Crash_Avoidance_System1
+## crashavoidancesystem1
 
 ### Assignment Description
 
