@@ -109,10 +109,24 @@ servo1.angle = 0
 ```
 the first line is defining the servo and telling the code which pin the servo is on. Duty cycle is the maximum frequency the servo will receive and frequency is the width of the pulses that the servo receives. The second line is making the 180 servo know that it can't go past a certain degree of rotation.
 
+## Crash_Avoidance_System
+
+### Assignment Description
+
+### Evidence 
+![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro1.gif)
+### Wiring
+![Wiring](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/CA1%20Wiring.jpg)
+### Code
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%201)  
+### Reflection
+
+
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
 ### Evidence 
 ### Wiring
+![Wiring]()
 ### Code
 [code]() **COMMENT YOUR CODE** 
 ### Reflection
