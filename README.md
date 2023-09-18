@@ -113,7 +113,7 @@ the first line is defining the servo and telling the code which pin the servo is
 ## CrashAvoidanceSystem1
 
 ### Assignment Description
-
+We were assigned to code and wire an accelerometer that returns us its x, y, and z values in the serial monitor. This will be useful when we are doing our project because will will be able to look at our data and see how quickly our object moved.
 ### Evidence 
 ![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro1.gif)
 ### Wiring
@@ -121,7 +121,7 @@ the first line is defining the servo and telling the code which pin the servo is
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%201)  
 ### Reflection
-
+This assignment was fun for me because I got to use a sensor that I hadn't used before. It was a good refresher for using I2C which I had done before when using LCDs. Its important to note that the Z value is around 8.3 while the others are 0. this is because of the gravity of the earth which messes with the sensor causing it to not give us a 0.
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description

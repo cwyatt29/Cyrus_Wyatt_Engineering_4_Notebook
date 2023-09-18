@@ -4,12 +4,12 @@ import board
 import time
 
 sda_pin = board.GP14
-scl_pin = board.GP15
-i2c = busio.I2C(scl_pin, sda_pin)
-mpu = adafruit_mpu6050.MPU6050(i2c)
+scl_pin = board.GP15 
+i2c = busio.I2C(scl_pin, sda_pin)  # This is creating the I2C and telling it to use the variables that were defined above.
+mpu = adafruit_mpu6050.MPU6050(i2c) 
 
 while True:
 
-    xyz = mpu.acceleration
-    print(f"xyz{xyz}")
+    xyz = mpu.acceleration # This is unecessary but I think it is easier to understand if it is a named variable.
+    print(f"xyz{xyz}") # This is an F string which lets us put a variable that is changing in our serial monitor or in a OLED or LCD
     time.sleep(.5)
