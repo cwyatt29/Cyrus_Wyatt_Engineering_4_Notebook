@@ -9,6 +9,8 @@
 * [LaunchPadPart3](#LaunchPadPart3)
 * [LaunchPadPart4](#LaunchPadPart4)
 * [CrashAvoidance1](#CrashAvoidanceSystem1)
+* [CrashAvoidance2](#CrashAvoidanceSystem2)
+* [CrashAvoidance3](#CrashAvoidanceSystem3)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
