@@ -1,0 +1,38 @@
+import adafruit_mpu6050
+import busio
+import board
+import time
+import digitalio
+
+sda_pin = board.GP14
+scl_pin = board.GP15 
+i2c = busio.I2C(scl_pin, sda_pin)  # This is creating the I2C and telling it to use the variables that were defined above.
+mpu = adafruit_mpu6050.MPU6050(i2c) # Initializes the sensor
+
+ledred = digitalio.DigitalInOut(board.GP13)
+ledred.direction = digitalio.Direction.OUTPUT  # defines the red LED as an output and sets its pin as GP13 on the Pico
+
+
+
+
+while True:
+
+    xyz = mpu.acceleration # This is unecessary but I think it is easier to understand if it is a named variable.
+    x = mpu.acceleration[0] 
+    y = mpu.acceleration[1]
+    z = mpu.acceleration[2]
+# these three statements ^ make each direction its own variable.
+    print(f"xyz{xyz}") # This is an F string which lets us put a variable that is changing in our serial monitor or in a OLED or LCD
+    time.sleep(.5)
+
+
+    if x < 8.4 or x > -8.4 or y < 8.4 or y > -8.4:
+        ledred.value = False # checks that the LED is off when the gyro is on a flat surface
+        time.sleep(.0001) 
+
+    if x > 8.5 or x < -8.5 or y > 8.5 or y < -8.5: # I used a 3 or statements to fit all of my conditions in one line. I could've also done four different if statements but this is more compact.
+        ledred.value = True # turns the LED on when the gyro is turned approximately 90 degrees
+        time.sleep(.0001)
+   
+
+      
