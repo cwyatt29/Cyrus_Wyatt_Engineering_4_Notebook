@@ -123,13 +123,30 @@ We were assigned to code and wire an accelerometer that returns us its x, y, and
 ### Reflection
 This assignment was fun for me because I got to use a sensor that I hadn't used before. It was a good refresher for using I2C which I had done before when using LCDs. Its important to note that the Z value is around 8.3 while the others are 0. this is because of the gravity of the earth which messes with the sensor causing it to not give us a 0.
 
+## CrashAvoidanceSystem2
+
+### Assignment Description
+
+### Evidence 
+
+![Evidence]()
+### Wiring
+
+![Wiring]()
+### Code
+
+[code]() **COMMENT YOUR CODE** 
+### Reflection
+
+
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
 ### Evidence 
+![Evidence]()
 ### Wiring
 ![Wiring]()
 ### Code
-[code]() **COMMENT YOUR CODE** 
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) **COMMENT YOUR CODE** 
 ### Reflection
 ## Onshape_Assignment_Template
 ### Assignment Description
