@@ -129,13 +129,13 @@ This assignment was fun for me because I got to use a sensor that I hadn't used 
 
 ### Evidence 
 
-![Evidence]()
+![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/CrashAvoidance2.gif)
 ### Wiring
 
 ![Wiring]()
 ### Code
 
-[code]() **COMMENT YOUR CODE** 
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) **COMMENT YOUR CODE** 
 ### Reflection
 
 
