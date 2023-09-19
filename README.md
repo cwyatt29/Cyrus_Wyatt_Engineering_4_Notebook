@@ -31,7 +31,7 @@ No wiring was needed because the Pico has an onboard LED which can blink.
 
 [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LED_blink.py)
 ### Reflection
-This assignment was very simple most of the command scripts we needed were in the instructions so all that was needed was to order them correctly and run the code. This code would be useful if you want to make sure your pico is functioning properly before launching a rocket or another flying projectile.
+This assignment was very simple most of the command scripts we needed were in the instructions so all that was needed was to order them correctly and run the code. This code would be useful if you want to make sure your pico is functioning properly before launching a rocket or another flying projectile. I also added a switch to my wiring which isn't necessary but it makes it easier to turn on and off.
 
 
 
@@ -132,13 +132,10 @@ This assignment was fun for me because I got to use a sensor that I hadn't used 
 We needed to make a light turn on if our gyro is tilted at a 90 degree angle. We also had to make it so that our device would work without being powered from the computer. This is essentially a warning system, If our helicopter is at 90 degrees something is definitely wrong.
 
 ### Evidence 
-
 ![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro2.gif)
 ### Wiring
-
 ![Wiring]()
 ### Code
-
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) 
 ### Reflection
 I learned how to round values which is very useful and I wish that I had learned it sooner. This makes if statements so much easier and also makes it easy to look at data and read it. I also learned more about F strings which let us print things more easily. I had a refresher on and and or statements and when the right time to use them is.
