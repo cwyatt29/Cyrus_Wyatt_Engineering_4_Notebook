@@ -129,17 +129,19 @@ This assignment was fun for me because I got to use a sensor that I hadn't used 
 
 ### Assignment Description
 
+We needed to make a light turn on if our gyro is tilted at a 90 degree angle. We also had to make it so that our device would work without being powered from the computer. This is essentially a warning system, If our helicopter is at 90 degrees something is definitely wrong.
+
 ### Evidence 
 
-![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/CrashAvoidance2.gif)
+![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro2.gif)
 ### Wiring
 
 ![Wiring]()
 ### Code
 
-[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) **COMMENT YOUR CODE** 
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) 
 ### Reflection
-
+I learned how to round values which is very useful and I wish that I had learned it sooner. This makes if statements so much easier and also makes it easy to look at data and read it. 
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
@@ -148,7 +150,7 @@ This assignment was fun for me because I got to use a sensor that I hadn't used 
 ### Wiring
 ![Wiring]()
 ### Code
-[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) **COMMENT YOUR CODE** 
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) 
 ### Reflection
 ## Onshape_Assignment_Template
 ### Assignment Description
