@@ -134,7 +134,7 @@ We needed to make a light turn on if our gyro is tilted at a 90 degree angle. We
 ### Evidence 
 ![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro2.gif)
 ### Wiring
-![Wiring]()
+![Wiring](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/CA2%20Wiring.jpg)
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) 
 ### Reflection
