@@ -140,6 +140,20 @@ We needed to make a light turn on if our gyro is tilted at a 90 degree angle. We
 ### Reflection
 I learned how to round values which is very useful and I wish that I had learned it sooner. This makes if statements so much easier and also makes it easy to look at data and read it. I also learned more about F strings which let us print things more easily. I had a refresher on and and or statements and when the right time to use them is.
 
+## CrashAvoidanceSystem3
+
+### Assignment Description
+
+### Evidence 
+![Evidence]()
+### Wiring
+![Wiring]()
+### Code
+[code]() 
+
+
+### Reflection
+
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
 ### Evidence 
