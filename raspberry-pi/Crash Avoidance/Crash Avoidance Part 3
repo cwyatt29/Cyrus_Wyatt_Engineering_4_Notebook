@@ -40,7 +40,6 @@ title = "ANGULAR VELOCITY"
 
 text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
 splash.append(text_area)    
-
 display.show(splash)
 while True:
 
