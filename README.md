@@ -143,16 +143,18 @@ I learned how to round values which is very useful and I wish that I had learned
 ## CrashAvoidanceSystem3
 
 ### Assignment Description
-
+Add an onboard screen that will report values of angular velocity back to the pilot. We are using an OLED screen and wiring it through the same serial clock and serial data pins. We want to round these values because it will be simpler for the pilot to read while flying the helocopter.
 ### Evidence 
-![Evidence]()
+![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro3.gif)
 ### Wiring
-![Wiring]()
+![Wiring](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/CA3%20Wiring.jpg)
 ### Code
-[code]() 
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%203) 
 
 
 ### Reflection
+We got to use a new screen which I liked more than the LCD screens we had been using because this was able to print more information on one screen. The quality on the OLEDs is better than the LCD and you dont have to adjust the brightness on the device which is nice. This was the first time that I had two devices on one I2C which was important to learn because it lets me greatly condense my wiring and not run out of ports which I have done before on projects with lots of inputs and outputs.
+
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
