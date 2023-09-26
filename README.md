@@ -11,6 +11,7 @@
 * [CrashAvoidance1](#CrashAvoidanceSystem1)
 * [CrashAvoidance2](#CrashAvoidanceSystem2)
 * [CrashAvoidance3](#CrashAvoidanceSystem3)
+* [CrashAvoidance4](#CrashAvoidanceSystem4)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
@@ -155,6 +156,22 @@ Add an onboard screen that will report values of angular velocity back to the pi
 ### Reflection
 We got to use a new screen which I liked more than the LCD screens we had been using because this was able to print more information on one screen. The quality on the OLEDs is better than the LCD and you dont have to adjust the brightness on the device which is nice. This was the first time that I had two devices on one I2C which was important to learn because it lets me greatly condense my wiring and not run out of ports which I have done before on projects with lots of inputs and outputs.
 
+
+## CrashAvoidanceSystem4
+
+### Assignment Description
+This was an optional assignment in which we were tasked with adding a altimeter to our crash avoidance system. If our system was above 3 meters the light would not come on. 
+### Evidence 
+![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro3.gif)
+
+### Wiring
+![Wiring]()
+
+### Code
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) 
+
+### Reflection
+I liked doing this because we got to use a third sensor on the same I2C the altimeter was also a useful sensor because it can measure temp, altitude, and barometric pressure. This will be useful for our project later because it will let us measure differnt data. The sensor is also compact which is very important because we can't have a very heavy payload.
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
