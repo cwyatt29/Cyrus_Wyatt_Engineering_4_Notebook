@@ -171,7 +171,7 @@ This was an optional assignment in which we were tasked with adding a altimeter 
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) 
 
 ### Reflection
-I liked doing this because we got to use a third sensor on the same I2C the altimeter was also a useful sensor because it can measure temp, altitude, and barometric pressure. This will be useful for our project later because it will let us measure differnt data. The sensor is also compact which is very important because we can't have a very heavy payload.
+In this assignment we got to use a third sensor on the same I2C the altimeter, is a useful sensor because it can measure temp, altitude, and barometric pressure. This will be useful for our project later because it will let us measure differnt data. The sensor is also compact which is very important because we can't have a very heavy payload.
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
