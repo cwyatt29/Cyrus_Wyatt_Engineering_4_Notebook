@@ -4,7 +4,7 @@ import busio
 import digitalio
 import adafruit_mpu6050
 import adafruit_displayio_ssd1306 
-import adafruit_mpl311a2
+import adafruit_mpl3115a2
 from adafruit_display_text import label
 import terminalio 
 import displayio
@@ -14,9 +14,9 @@ sda_pin = board.GP14
 scl_pin = board.GP15 
 i2c = busio.I2C(scl_pin, sda_pin)  
 # This is creating the I2C and telling it to use the variables that were defined above.
-mpu = adafruit_mpu6050.MPU6050(i2c, 0x68) 
+mpu = adafruit_mpu6050.MPU6050(i2c,0x68) 
 # Initializes the sensor and tells it its address
-altimiter = adafruit_mpl311a2.MPL3115A2(i2c, 0x60)
+altimeter = adafruit_mpl3115a2.MPL3115A2(i2c)
 # Initializes the altimeter and tells it its address
 display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP17)
 # Initializes the screen and tells it its address
@@ -33,12 +33,13 @@ text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
 splash.append(text_area)
 display.show(splash)
 
-sensor.sealevel_pressure = 103040
-
-
+altimeter.sealevel_pressure = 103040
+# this calibrates the altimeter you can find this value by doing print('Pressure: {0:0.3f} pascals'.format(sensor.pressure))
 
 while True:
-
+    altitude = altimeter.altitude
+    print('Altitude: {0:0.3f} meters'.format(altimeter.altitude))
+    
     x = round(mpu.gyro[0],3)
     y = round(mpu.gyro[1],3)
     z = round(mpu.gyro[2],3)
@@ -54,6 +55,10 @@ while True:
     # This is an F string which lets us put a variable that is changing in our serial monitor or in a OLED or LCD
     time.sleep(.1)
 
+    if altitude > 160:
+        ledred.value = False
+        time.sleep(.01) 
+
     if x < 8.5 and x > -8.5 and y < 8.5 and y > -8.5: 
         # using 8.5 puts a deadzone so that the light wont flicker when it is close to 9
         ledred.value = False
@@ -62,6 +67,3 @@ while True:
     if x > 9 or x < -9 or y > 9 or y < -9: 
         ledred.value = True
         time.sleep(.01)
-
-    print('Altitude: {0:0.3f} meters'.format(sensor.altitude))
-   
