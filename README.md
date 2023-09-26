@@ -162,7 +162,7 @@ We got to use a new screen which I liked more than the LCD screens we had been u
 ### Assignment Description
 This was an optional assignment in which we were tasked with adding a altimeter to our crash avoidance system. If our system was above 3 meters the light would not come on. 
 ### Evidence 
-![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro3.gif)
+![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro4.gif)
 
 ### Wiring
 ![Wiring]()
