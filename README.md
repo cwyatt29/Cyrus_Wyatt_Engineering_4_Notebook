@@ -183,7 +183,8 @@ Lucia Whitmore and I were tasked with making a 3d printed beam that could suppor
 [FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
 ### Part Image
 ![PartImage1](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Beam%20Starter%20%2B%20Holder%20Copy%201.png)
-![PartImage2](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Beam%20Starter%20%2B%20Holder%20Copy%202.png)
+![PartImage2](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Beam%20Starter%20%2B%20Holder%20Copy%202.png)width="75">
+<img src="[PartImage2](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Beam%20Starter%20%2B%20Holder%20Copy%202.png)" width="75"
 ### Reflection
 I think that Lucia and I chose a good method of design which let us complete two different designs at the same time and more options mean more better. Lucias design was better than mine because she was able to make small adjustments which mine couldnt do as well. My design was more complicated than Lucias which meant it took more time to do and didn't necessarily make it any better. If I was going to do this again I wouldve started by making my original extrusion from the mounting peice more adjustable because that would have allowed me to cut the most weight quickly.
 
