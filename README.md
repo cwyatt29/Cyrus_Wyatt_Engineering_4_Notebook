@@ -182,7 +182,8 @@ Lucia Whitmore and I were tasked with making a 3d printed beam that could suppor
 
 [FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
 ### Part Image
-
+![PartImage1]()
+![PartImage2]()
 ### Reflection
 
 ## Raspberry_Pi_Assignment_Template
