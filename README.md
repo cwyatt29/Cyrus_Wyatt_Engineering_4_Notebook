@@ -177,14 +177,16 @@ In this assignment we got to use a third sensor on the same I2C the altimeter, i
 # FEABeamAssignment
 
 ### Assignment Description
-Lucia Whitmore and I were tasked with making a 3d printed beam that could support the most weight. The parameters were that the beam had to hold the weight 180mm from the start of the beam, it couldn't weight more than 13g and it couldn't use any support material.
+Lucia Whitmore and I were tasked with making a 3d printed beam that could support the most weight. The parameters were that the beam had to hold the weight 180mm from the start of the beam, it couldn't weight more than 13g and it couldn't use any support material. Lucia and I started by brainstorming some ideas and researching bridges and cranes which had already achived the goal we were working towards. Next we both picked a design to work on and made it in OnShape, I choose to do a truss and Lucia made a triangle but switched to a box design because the triangle weighted far too much.
 ### Part Link 
 
 [FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
 ### Part Image
-![PartImage1]()
-![PartImage2]()
+![PartImage1](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Beam%20Starter%20%2B%20Holder%20Copy%201.png)
+![PartImage2](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Beam%20Starter%20%2B%20Holder%20Copy%202.png)
 ### Reflection
+I think that Lucia and I chose a good method of design which let us complete two different designs at the same time and more options mean more better. Lucias design was better than mine because she was able to make small adjustments which mine couldnt do as well. My design was more complicated than Lucias which meant it took more time to do and didn't necessarily make it any better. If I was going to do this again I wouldve started by making my original extrusion from the mounting peice more adjustable because that would have allowed me to cut the most weight quickly.
+
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
