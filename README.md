@@ -12,6 +12,7 @@
 * [CrashAvoidance2](#CrashAvoidanceSystem2)
 * [CrashAvoidance3](#CrashAvoidanceSystem3)
 * [CrashAvoidance4](#CrashAvoidanceSystem4)
+* [FEABeamAssignment](#FEABeamAssignment)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
@@ -172,6 +173,17 @@ This was an optional assignment in which we were tasked with adding a altimeter 
 
 ### Reflection
 In this assignment we got to use a third sensor on the same I2C the altimeter, is a useful sensor because it can measure temp, altitude, and barometric pressure. This will be useful for our project later because it will let us measure differnt data. The sensor is also compact which is very important because we can't have a very heavy payload.
+
+# FEABeamAssignment
+
+### Assignment Description
+Lucia Whitmore and I were tasked with making a 3d printed beam that could support the most weight. The parameters were that the beam had to hold the weight 180mm from the start of the beam, it couldn't weight more than 13g and it couldn't use any support material.
+### Part Link 
+
+[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
+### Part Image
+
+### Reflection
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
