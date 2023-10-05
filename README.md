@@ -1,3 +1,4 @@
+
 # Engineering_4_Notebook
 
 &nbsp;
@@ -13,7 +14,8 @@
 * [CrashAvoidance3](#CrashAvoidanceSystem3)
 * [CrashAvoidance4](#CrashAvoidanceSystem4)
 * [FEABeamAssignment](#FEABeamAssignment)
-* [FEABeamAssignmentPart3](FEABeamAssignmentPart3)
+* [FEABeamAssignmentPart3](#FEABeamAssignmentPart3)
+* [FEABeamAssignmentPart4](#FEABeamAssignmentPart4)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
@@ -209,6 +211,21 @@ Stress Image
 Displacement Image
 ![PartImage2b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Displacement.png)
 ### Reflection
+The FEA is very useful for this assignment, without it we would have to wait for our printers to print before we could test. This would also be more expensive than FEA. FEA will be useful in the future because we will be able to test different materials before we launch rockets or balloons. 
+
+
+# FEABeamAssignmentPart4
+
+### Assignment Description
+
+### Part Link 
+
+[FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
+### Part Image
+
+### Reflection
+
+
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
