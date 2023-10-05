@@ -13,6 +13,7 @@
 * [CrashAvoidance3](#CrashAvoidanceSystem3)
 * [CrashAvoidance4](#CrashAvoidanceSystem4)
 * [FEABeamAssignment](#FEABeamAssignment)
+* [FEABeamAssignmentPart3](FEABeamAssignmentPart3)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
@@ -199,9 +200,14 @@ We were tasked with using onshape simulation tools to test our beams before prin
 
 [FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
 ### Part Image
-![PartImage1](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation.png)
-![PartImage2](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation.png)
-
+Stress Image
+![PartImage1a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation.png)
+Displacement Image
+![PartImage1b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation%20Displacement.png)
+Stress Image
+![PartImage2a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation.png)
+Displacement Image
+![PartImage2b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Displacement.png)
 ### Reflection
 
 ## Raspberry_Pi_Assignment_Template
