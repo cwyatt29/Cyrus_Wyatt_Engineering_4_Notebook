@@ -216,7 +216,7 @@ To improve this design it would be good to remove material from the dark blue ar
 ![PartImage2b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Displacement.png)
 
 #### Part 2 Analysis
-This design will need more changes than design 1. It would be benfitial to angle the fins to create more rigidity. It would be good to remove some material from the end of it and beef up the part close to the mounting point.
+This design will need more changes than design 1. It would be benfitial to angle the fins to create more rigidity. It would be good to remove some material from the end of it and beef up the part close to the mounting point. If you look at the stress image you can see where it had the weakest point.
 
 
 ### Reflection
