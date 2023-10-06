@@ -202,20 +202,22 @@ We were tasked with using onshape simulation tools to test our beams before prin
 
 [FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
 ### Part Image
-Stress Image
+#### Stress Image
 ![PartImage1a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation.png)
-Displacement Image
+#### Displacement Image
 ![PartImage1b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation%20Displacement.png)
 
 #### Part 1 Analysis
 To improve this design it would be good to remove material from the dark blue areas and add it to the red. This would involve removing parts off the side skirts and adding more to the spine that is close to the holder. There is the most stress there so it will also be good to use filets and chamfers to get rid of weak 90 degree points.
 
-Stress Image
-![PartImage2a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation.png)
-Displacement Image
+#### Stress Image
+![PartImage2a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Stress.png)
+#### Displacement Image
 ![PartImage2b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Displacement.png)
 
 #### Part 2 Analysis
+This design will need more changes than design 1. It would be benfitial to angle the fins to create more rigidity. It would be good to remove some material from the end of it and beef up the part close to the mounting point.
+
 
 ### Reflection
 The FEA is very useful for this assignment, without it we would have to wait for our printers to print before we could test. This would also be more expensive than FEA. FEA will be useful in the future because we will be able to test different materials before we launch rockets or balloons. 
