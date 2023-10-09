@@ -237,17 +237,18 @@ After completing part 3 we need to take what we learned and put it into our mode
 Because Lucia was out for most of the week we did this the main changes were all done by me but on the last day we decided to divide and conquere to see who could make a better design. As it turns out Lucia's design beat mine by a stress factor of 1 point so we decided to go with hers.
 
 #### Lucia's Stress Image
-![Cyrus's Improvements]()
+![Lucia's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%202%20stress.png)
 #### Lucia's Displacement Image
-![Cyrus's Improvements]()
+![Lucia's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%202%20displacement.png)
 
 #### Cyrus's Stress Image
-![Cyrus's Improvements]()
+![Cyrus's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%201%20stress.png)
 #### Cyrus's Displacement Image
-![Cyrus's Improvements]()
+![Cyrus's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%201%20displacement.png)
 
 ### Reflection
 
+I had a hard time using the built in OnShape FEA tool because when I made upates it would take a long time for the simulation to tell me if it improved or not. I wish Lucia had been here for more time because we would've been able to improve our design a lot more. I
 
 
 ## Raspberry_Pi_Assignment_Template
