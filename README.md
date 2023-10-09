@@ -226,11 +226,25 @@ The FEA is very useful for this assignment, without it we would have to wait for
 # FEABeamAssignmentPart4
 
 ### Assignment Description
+After completing part 3 we need to take what we learned and put it into our model. We are supposed to run multiple simulations after each change that we make to see if we have any improvement. Our design is pretty good right now but we will have to make small but important changes to the weak points to improve our design.
 
 ### Part Link 
 
 [FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
 ### Part Image
+
+####  Improvements
+Because Lucia was out for most of the week we did this the main changes were all done by me but on the last day we decided to divide and conquere to see who could make a better design. As it turns out Lucia's design beat mine by a stress factor of 1 point so we decided to go with hers.
+
+#### Lucia's Stress Image
+![Cyrus's Improvements]()
+#### Lucia's Displacement Image
+![Cyrus's Improvements]()
+
+#### Cyrus's Stress Image
+![Cyrus's Improvements]()
+#### Cyrus's Displacement Image
+![Cyrus's Improvements]()
 
 ### Reflection
 
