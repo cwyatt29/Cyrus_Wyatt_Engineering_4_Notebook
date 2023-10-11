@@ -251,6 +251,21 @@ Because Lucia was out for most of the week we did this the main changes were all
 
 I had a hard time using the built in OnShape FEA tool because when I made upates it would take a long time for the simulation to tell me if it improved or not. I wish Lucia had been here for more time because we would've been able to improve our design a lot more. I Think that if we had more time I would have started a new design and remove the side peices because most of our strength came from our spine. We were able to get a single digit stress factor which I am happy with and I feel that we have a good chance of having one of the strongest beams in the class.
 
+# FEABeamAssignmentPart5
+
+### Assignment Description
+
+After breaking our beams we got to see where they would break in real life and we were tasked once again with improving our design. Lucia and I decided to scrap most of our last design because there were multiple issues with it.
+
+### Part Link 
+
+[Link1](https://cvilleschools.onshape.com/documents/68a3942f60c958fbf735b6e9/w/9c072b32744bb5fb1b10fb65/e/45140ff02c4b7573c4df0622)
+### Part Image
+
+####  Improvements
+
+We kept the spine shape of it but instead of adding triangluar supports along the sides we added a long top beam that we chamfered so there was no overhangs where we would need support material. We also decided to add a support to the area where the beam slotted into the holder because many other teams had their parts break there and if we could fix the front portion where ours broke last time we should beef up the back too. We removed material using diamonds which were stronger than the square cut outs that we had used before. The most important change we made was making the head much bigger. We did this because on our last design it was extremely thin and snapped instantly. By making these changes we were able to get our stress factor down to 7.08 which is a 38.8% increase from our original design.
+### Reflection
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
