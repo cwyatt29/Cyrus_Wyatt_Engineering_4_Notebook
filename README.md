@@ -13,9 +13,10 @@
 * [CrashAvoidance2](#CrashAvoidanceSystem2)
 * [CrashAvoidance3](#CrashAvoidanceSystem3)
 * [CrashAvoidance4](#CrashAvoidanceSystem4)
-* [FEABeamAssignment](#FEABeamAssignment)
+* [FEABeamAssignment1&2](#FEABeamAssignment1&2)
 * [FEABeamAssignmentPart3](#FEABeamAssignmentPart3)
 * [FEABeamAssignmentPart4](#FEABeamAssignmentPart4)
+* [FEABeamAssignmentPart5](#FEABeamAssignmentPart5)
 * [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
 * [Onshape_Assignment_Template](#onshape_assignment_template)
 * [Github_Intro](#Github_Intro)
@@ -177,7 +178,7 @@ This was an optional assignment in which we were tasked with adding a altimeter 
 ### Reflection
 In this assignment we got to use a third sensor on the same I2C the altimeter, is a useful sensor because it can measure temp, altitude, and barometric pressure. This will be useful for our project later because it will let us measure differnt data. The sensor is also compact which is very important because we can't have a very heavy payload.
 
-# FEABeamAssignment
+# FEABeamAssignment1&2
 
 ### Assignment Description
 Lucia Whitmore and I were tasked with making a 3d printed beam that could support the most weight. The parameters were that the beam had to hold the weight 180mm from the start of the beam, it couldn't weight more than 13g and it couldn't use any support material. Lucia and I started by brainstorming some ideas and researching bridges and cranes which had already achived the goal we were working towards. Next we both picked a design to work on and made it in OnShape, I choose to do a truss and Lucia made a triangle but switched to a box design because the triangle weighted far too much.
