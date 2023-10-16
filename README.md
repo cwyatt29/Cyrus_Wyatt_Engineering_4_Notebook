@@ -306,6 +306,9 @@ If I was to do this again I would have trusted my intution over the FEA more. I 
 
 
 
+<details>
+  <summary>Hidden</summary
+                     
 
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
@@ -330,3 +333,5 @@ If I was to do this again I would have trusted my intution over the FEA more. I 
 ### ![TEST](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/TEST.jpg)
 ### Test GIF
 ### ![testgif](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Testgif.gif)
+</details>
+
