@@ -287,8 +287,15 @@ After breaking our beams we got to see where they would break in real life and w
 
 [Link1](https://cvilleschools.onshape.com/documents/68a3942f60c958fbf735b6e9/w/9c072b32744bb5fb1b10fb65/e/45140ff02c4b7573c4df0622)
 ### Part Image
+
+<details>
+  <summary>Part Images</summary
+                     
 ![Stress Pic](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Third%20Try%20Stress%20Pic.png)
 ![Displacement Pic](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Thrid%20Try%20Displacement%20Pic.png)
+
+</details>
+
 ####  Improvements
 
 We kept the spine shape of it but instead of adding triangluar supports along the sides we added a long top beam that we chamfered so there was no overhangs where we would need support material. We also decided to add a support to the area where the beam slotted into the holder because many other teams had their parts break there and if we could fix the front portion where ours broke last time we should beef up the back too. We removed material using diamonds which were stronger than the square cut outs that we had used before. The most important change we made was making the head much bigger. We did this because on our last design it was extremely thin and snapped instantly. By making these changes we were able to get our stress factor down to 6.45 which is a 43% decrease from our original design.
