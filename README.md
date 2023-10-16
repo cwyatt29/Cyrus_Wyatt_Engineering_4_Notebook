@@ -208,18 +208,29 @@ We were tasked with using onshape simulation tools to test our beams before prin
 
 [FEABEAM](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
 ### Part Image
-#### Stress Image
-![PartImage1a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation.png)
-#### Displacement Image
-![PartImage1b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation%20Displacement.png)
+
+<details>
+  <summary>Part 1 Images</summary>
+ 
+  #### Stress Image
+  ![PartImage1a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation.png)
+  #### Displacement Image
+  ![PartImage1b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%201%20Simulation%20Displacement.png)
+  
+</details>
 
 #### Part 1 Analysis
 To improve this design it would be good to remove material from the dark blue areas and add it to the red. This would involve removing parts off the side skirts and adding more to the spine that is close to the holder. There is the most stress there so it will also be good to use filets and chamfers to get rid of weak 90 degree points.
 
-#### Stress Image
-![PartImage2a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Stress.png)
-#### Displacement Image
-![PartImage2b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Displacement.png)
+<details>
+  <summary>Part 2 Images</summary
+                         
+  #### Stress Image
+  ![PartImage2a](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Stress.png)
+  #### Displacement Image
+  ![PartImage2b](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Assembly%20Copy%202%20Simulation%20Displacement.png)
+  
+</details>
 
 #### Part 2 Analysis
 This design will need more changes than design 1. It would be benfitial to angle the fins to create more rigidity. It would be good to remove some material from the end of it and beef up the part close to the mounting point. If you look at the stress image you can see where it had the weakest point.
@@ -236,23 +247,32 @@ After completing part 3 we need to take what we learned and put it into our mode
 
 ### Part Link 
 
-[Link1](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
-[Link2](https://cvilleschools.onshape.com/documents/68a3942f60c958fbf735b6e9/w/9c072b32744bb5fb1b10fb65/e/45140ff02c4b7573c4df0622)
+[Part1Link](https://cvilleschools.onshape.com/documents/cebfb999b850e3304b183c8f/w/6d6994e08687c4d9aae8ad50/e/bc14fcb1e64d92da7e0746b2?renderMode=0&uiState=651c47ac2c3aec7eb767df86)
+[Part2Link](https://cvilleschools.onshape.com/documents/68a3942f60c958fbf735b6e9/w/9c072b32744bb5fb1b10fb65/e/45140ff02c4b7573c4df0622)
 ### Part Image
 
 ####  Improvements
 Because Lucia was out for most of the week we did this the main changes were all done by me but on the last day we decided to divide and conquere to see who could make a better design. As it turns out Lucia's design beat mine by a stress factor of 1 point so we decided to go with hers. Our maxium improvement was improved by a factor of 36.27% which is good considering that our design was already at a stress factor of 11.57.
 
-#### Lucia's Stress Image
-![Lucia's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%202%20stress.png)
-#### Lucia's Displacement Image
-![Lucia's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%202%20displacement.png)
+<details>
+  <summary>Part 1 Images</summary
+                         
 
-#### Cyrus's Stress Image
-![Cyrus's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%201%20stress.png)
-#### Cyrus's Displacement Image
-![Cyrus's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%201%20displacement.png)
-
+  #### Lucia's Stress Image
+  ![Lucia's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%202%20stress.png)
+  #### Lucia's Displacement Image
+  ![Lucia's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%202%20displacement.png)
+  
+</details>
+<details>
+  <summary>Part 2 Images</summary
+                         
+  #### Cyrus's Stress Image
+  ![Cyrus's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%201%20stress.png)
+  #### Cyrus's Displacement Image
+  ![Cyrus's Improvements](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Improved%20Beam%20copy%201%20displacement.png)
+  
+</details>
 ### Reflection
 
 I had a hard time using the built in OnShape FEA tool because when I made upates it would take a long time for the simulation to tell me if it improved or not. I wish Lucia had been here for more time because we would've been able to improve our design a lot more. I Think that if we had more time I would have started a new design and remove the side peices because most of our strength came from our spine. We were able to get a single digit stress factor which I am happy with and I feel that we have a good chance of having one of the strongest beams in the class.
