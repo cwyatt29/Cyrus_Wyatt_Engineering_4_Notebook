@@ -17,9 +17,6 @@
 * [FEABeamAssignmentPart3](#FEABeamAssignmentPart3)
 * [FEABeamAssignmentPart4](#FEABeamAssignmentPart4)
 * [FEABeamAssignmentPart5](#FEABeamAssignmentPart5)
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
-* [Github_Intro](#Github_Intro)
 &nbsp;
 
 
