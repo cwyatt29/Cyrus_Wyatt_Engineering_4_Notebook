@@ -166,9 +166,6 @@ This was an optional assignment in which we were tasked with adding a altimeter 
 ### Evidence 
 ![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Gyro4.gif)
 
-### Wiring
-![Wiring]()
-
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) 
 
