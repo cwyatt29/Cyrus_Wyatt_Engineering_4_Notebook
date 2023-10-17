@@ -1,17 +1,27 @@
 import board
 import math
 
-def Tri Area((a,b)(c,d)(e,f)):
-            area = abs(a(d-f)+c(f-b)+e(b-c))/2
+while true: 
 
 
-# this is the formula to find area based off of the coordinates we also could've done this with herrons formula but this is easier because it requires less math
-    return area
+        def Tri Area(a,b,c,d,e,f):
+                area = abs(a*(d-f)+c*(f-b)+e*(b-c))/2# this is the formula to find area based off of the coordinates we also could've done this with herrons formula but this is easier because it requires less math
+                
+                return area
 
 # point 1 is (a,b)
 # point 2 is (c,d)
 # point 3 is (e,f)
 
-a, b, c, d, e, f = 1, 4.5, -2, 9, 4, 8
-OMG = abs(a(d-f)+c(f-b)+e(b-c))/2
-print(f"The area of the triangle with vertices (a,b)(c,d)(e,f) is {OMG} square km")
+
+#Driver code
+#a, b, c, d, e, f = 1, 4.5, -2, 9, 4, 8
+#OMG = abs(a(d-f)+c(f-b)+e(b-c))/2
+#print(f"The area of the triangle with vertices (a,b)(c,d)(e,f) is {OMG} square km")
+        a = input('Enter x1:')
+        b = input('Enter y1:')
+        c = input('Enter x2:')
+        d = input('Enter y2:')
+        e = input('Enter x3:')
+        f = input('Enter y3:')
+    
