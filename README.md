@@ -9,10 +9,10 @@
 * [LaunchPadPart2](#LaunchPadPart2)
 * [LaunchPadPart3](#LaunchPadPart3)
 * [LaunchPadPart4](#LaunchPadPart4)
-* [CrashAvoidance1](#CrashAvoidanceSystem1)
-* [CrashAvoidance2](#CrashAvoidanceSystem2)
-* [CrashAvoidance3](#CrashAvoidanceSystem3)
-* [CrashAvoidance4](#CrashAvoidanceSystem4)
+* [CrashAvoidancePart1](#CrashAvoidanceSystemPart1)
+* [CrashAvoidancePart2](#CrashAvoidanceSystemPart2)
+* [CrashAvoidancePart3](#CrashAvoidanceSystemPart3)
+* [CrashAvoidancePart4](#CrashAvoidanceSystemPart4)
 * [FEABeamAssignmentParts1and2](#FEABeamAssignmentParts1and2)
 * [FEABeamAssignmentPart3](#FEABeamAssignmentPart3)
 * [FEABeamAssignmentPart4](#FEABeamAssignmentPart4)
@@ -115,7 +115,7 @@ servo1.angle = 0
 ```
 the first line is defining the servo and telling the code which pin the servo is on. Duty cycle is the maximum frequency the servo will receive and frequency is the width of the pulses that the servo receives. The second line is making the 180 servo know that it can't go past a certain degree of rotation.
 
-## CrashAvoidanceSystem1
+## CrashAvoidanceSystemPart1
 
 ### Assignment Description
 We were assigned to code and wire an accelerometer that returns us its x, y, and z values in the serial monitor. This will be useful when we are doing our project because will will be able to look at our data and see how quickly our object moved. It would also be good for making a crash avoidance system.
@@ -128,7 +128,7 @@ We were assigned to code and wire an accelerometer that returns us its x, y, and
 ### Reflection
 This assignment was fun for me because I got to use a sensor that I hadn't used before. It was a good refresher for using I2C which I had done before when using LCDs. Its important to note that the Z value is around 8.3 while the others are 0. this is because of the gravity of the earth which messes with the sensor causing it to not give us a 0.
 
-## CrashAvoidanceSystem2
+## CrashAvoidanceSystemPart2
 
 ### Assignment Description
 
@@ -143,7 +143,7 @@ We needed to make a light turn on if our gyro is tilted at a 90 degree angle. We
 ### Reflection
 I learned how to round values which is very useful and I wish that I had learned it sooner. This makes if statements so much easier and also makes it easy to look at data and read it. I also learned more about F strings which let us print things more easily. I had a refresher on and and or statements and when the right time to use them is.
 
-## CrashAvoidanceSystem3
+## CrashAvoidanceSystemPart3
 
 ### Assignment Description
 Add an onboard screen that will report values of angular velocity back to the pilot. We are using an OLED screen and wiring it through the same serial clock and serial data pins. We want to round these values because it will be simpler for the pilot to read while flying the helocopter.
@@ -159,7 +159,7 @@ Add an onboard screen that will report values of angular velocity back to the pi
 We got to use a new screen which I liked more than the LCD screens we had been using because this was able to print more information on one screen. The quality on the OLEDs is better than the LCD and you dont have to adjust the brightness on the device which is nice. This was the first time that I had two devices on one I2C which was important to learn because it lets me greatly condense my wiring and not run out of ports which I have done before on projects with lots of inputs and outputs.
 
 
-## CrashAvoidanceSystem4
+## CrashAvoidanceSystemPart4
 
 ### Assignment Description
 This was an optional assignment in which we were tasked with adding a altimeter to our crash avoidance system. If our system was above 3 meters the light would not come on. 
