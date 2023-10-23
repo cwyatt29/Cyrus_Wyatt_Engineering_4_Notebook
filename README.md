@@ -17,6 +17,9 @@
 * [FEABeamAssignmentPart3](#FEABeamAssignmentPart3)
 * [FEABeamAssignmentPart4](#FEABeamAssignmentPart4)
 * [FEABeamAssignmentPart5](#FEABeamAssignmentPart5)
+* [LandingAreaPart1](#LandingAreaPart1)
+* [LandingAreaPart2](#LandingAreaPart2)
+* [LandingAreaPart3](#LandingAreaPart3)
 &nbsp;
 
 
@@ -310,7 +313,7 @@ We were tasked with making a code that could find the area of a triangle based o
 There was no wiring for this assignment.
 
 ### Code
-[code]() 
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Landing%20Area/Part%201%20(Functions)) 
 ### Reflection
 
 This assignement was more chalenging than previous assignments because we were learning skills that I had never done before. I liked doing this because I got to learn more about using math and logic and code. It was also useful to learn about try and except commands which would be very nice if we were making something where you have to input values. Without these it would cause the whole code to crash when data was input wrong. Making Our own functions is also very useful and a good way to make code more compact. This assignment could've been done without using functions but now that I know how to use them I wouldn't do it a different way.
