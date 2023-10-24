@@ -1,5 +1,13 @@
 import board
 import math
+import time
+import busio
+import digitalio
+import adafruit_displayio_ssd1306 
+import terminalio 
+import displayio
+import adafruit_display_shapes
+from adafruit_display_text import label
 
 def LZ(VX1, VX2, VX3):
        
