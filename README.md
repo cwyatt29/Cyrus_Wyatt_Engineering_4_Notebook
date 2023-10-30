@@ -4,26 +4,26 @@
 &nbsp;
 
 ## Table of Contents
-* [LED_blink.py](#led_blink)
-* [LaunchPadPart1](#LaunchPadPart1)
-* [LaunchPadPart2](#LaunchPadPart2)
-* [LaunchPadPart3](#LaunchPadPart3)
-* [LaunchPadPart4](#LaunchPadPart4)
-* [CrashAvoidancePart1](#CrashAvoidanceSystemPart1)
-* [CrashAvoidancePart2](#CrashAvoidanceSystemPart2)
-* [CrashAvoidancePart3](#CrashAvoidanceSystemPart3)
-* [CrashAvoidancePart4](#CrashAvoidanceSystemPart4)
-* [FEABeamAssignmentParts1and2](#FEABeamAssignmentParts1and2)
-* [FEABeamAssignmentPart3](#FEABeamAssignmentPart3)
-* [FEABeamAssignmentPart4](#FEABeamAssignmentPart4)
-* [FEABeamAssignmentPart5](#FEABeamAssignmentPart5)
-* [LandingAreaPart1](#LandingAreaPart1)
-* [LandingAreaPart2](#LandingAreaPart2)
-* [LandingAreaPart3](#LandingAreaPart3)
+* [LED Blink](#LED-Blink)
+* [Launch Pad Part 1](#Launch-Pad-Part-1)
+* [LaunchPadPart 2](#Launch-Pad-Part-2)
+* [LaunchPadPart 3](#Launch-Pad-Part-3)
+* [LaunchPadPart 4](#Launch-Pad-Part-4)
+* [Crash Avoidance Part 1](#Crash-Avoidance-System-Part-1)
+* [Crash Avoidance Part 2](#Crash-Avoidance-System-Part-2)
+* [Crash Avoidance Part 3](#Crash-Avoidance-System-Part-3)
+* [Crash Avoidance Part 4](#Crash-Avoidance-System-Part-4)
+* [FEA Beam Assignment Parts 1 & 2](#FEA-Beam-Assignment-Parts-1-&-2)
+* [FEA Beam Assignment Part 3](#FEA-Beam-Assignment-Part-3)
+* [FEA Beam Assignment Part 4](#FEA-Beam-Assignment-Part-4)
+* [FEA Beam Assignment Part 5](#FEA-Beam-Assignment-Part-5)
+* [Landing Area Part 1](#Landing-Area-Part-1)
+* [Landing Area Part 2](#Landing-Area-Part-2)
+* [Landing Area Part 3](#Landing-Area-Part-3)
 &nbsp;
+___
 
-
-## led_blink
+## LED Blink
 
 ### Assignment Description
 use vs code to make the onboard LED on the Rasberry Pi Pico blink.
@@ -40,9 +40,9 @@ No wiring was needed because the Pico has an onboard LED which can blink.
 This assignment was very simple most of the command scripts we needed were in the instructions so all that was needed was to order them correctly and run the code. This code would be useful if you want to make sure your pico is functioning properly before launching a rocket or another flying projectile. I also added a switch to my wiring which isn't necessary but it makes it easier to turn on and off.
 
 
+___
 
-
-## LaunchPadPart1
+## Launch Pad Part 1
 
 ### Assignment Description
 Create a code that will print a countdown into the serial monitor. Code should start at 10 and stop at 0.
@@ -58,8 +58,8 @@ No wiring was needed for this because it is only in a serial monitor
  [Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Launch%20Pad/LaunchPadPart1)
 ### Reflection
 The command N -= 1 is used to minus one from the value of N every loop. This is useful to know because N - 1 will just print 9 and N = -1 will print -1. Other than that the code is simple. Also remember to use if N = 0 break which will prevent the code from going into negative values.
-
-## LaunchPadPart2
+___
+## Launch Pad Part 2
 
 ### Assignment Description
 Blink a red light each second of the countdown, and turn on a green LED to signify liftoff.
@@ -76,8 +76,8 @@ Blink a red light each second of the countdown, and turn on a green LED to signi
 
 ### Reflection
 The Pico uses GP ports instead of D ports it is important to remember to name them as GP. The long leg of the LED is the positive side. The green LEDs are very hard to see when it is bright so I used a blue LED that shows up better.
-
-## LaunchPadPart3
+___
+## Launch Pad Part 3
 
 ### Assignment Description
 We need to add a button to our launch pad instead of using our code to begin the countdown. When the button is pressed we need to start the countdown. We don't have a saftey in place but we could make it so that if it is pressed again it will stop the countdown and reset it.
@@ -94,8 +94,8 @@ We need to add a button to our launch pad instead of using our code to begin the
 
 ### Reflection
 This was a good refresher for how button code works. This will be nice to look back at when we are making our projects later in the year. It is important to know whether you're pulling up or pulling down. Pull up means when you aren't pressing the button its seeing a true value. When you are Pulling down it means it will get a true value when the button is depressed. 
-
-## LaunchPadPart4
+___
+## Launch Pad Part 4
 
 ### Assignment Description
 Building off of the previous assignments, add a servo that rotates 180 degrees when the countdown reaches zero to mimic the movment of a support tower breaking away when launching a rocket.
@@ -117,8 +117,8 @@ servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
 servo1.angle = 0                
 ```
 the first line is defining the servo and telling the code which pin the servo is on. Duty cycle is the maximum frequency the servo will receive and frequency is the width of the pulses that the servo receives. The second line is making the 180 servo know that it can't go past a certain degree of rotation.
-
-## CrashAvoidanceSystemPart1
+___
+## Crash Avoidance System Part 1
 
 ### Assignment Description
 We were assigned to code and wire an accelerometer that returns us its x, y, and z values in the serial monitor. This will be useful when we are doing our project because will will be able to look at our data and see how quickly our object moved. It would also be good for making a crash avoidance system.
@@ -130,8 +130,8 @@ We were assigned to code and wire an accelerometer that returns us its x, y, and
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%201)  
 ### Reflection
 This assignment was fun for me because I got to use a sensor that I hadn't used before. It was a good refresher for using I2C which I had done before when using LCDs. Its important to note that the Z value is around 8.3 while the others are 0. this is because of the gravity of the earth which messes with the sensor causing it to not give us a 0.
-
-## CrashAvoidanceSystemPart2
+___
+## Crash Avoidance System Part 2
 
 ### Assignment Description
 
@@ -145,8 +145,8 @@ We needed to make a light turn on if our gyro is tilted at a 90 degree angle. We
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance/Crash%20Avoidance%20Part%202) 
 ### Reflection
 I learned how to round values which is very useful and I wish that I had learned it sooner. This makes if statements so much easier and also makes it easy to look at data and read it. I also learned more about F strings which let us print things more easily. I had a refresher on and and or statements and when the right time to use them is.
-
-## CrashAvoidanceSystemPart3
+___
+## Crash Avoidance System Part 3
 
 ### Assignment Description
 Add an onboard screen that will report values of angular velocity back to the pilot. We are using an OLED screen and wiring it through the same serial clock and serial data pins. We want to round these values because it will be simpler for the pilot to read while flying the helocopter.
@@ -161,8 +161,8 @@ Add an onboard screen that will report values of angular velocity back to the pi
 ### Reflection
 We got to use a new screen which I liked more than the LCD screens we had been using because this was able to print more information on one screen. The quality on the OLEDs is better than the LCD and you dont have to adjust the brightness on the device which is nice. This was the first time that I had two devices on one I2C which was important to learn because it lets me greatly condense my wiring and not run out of ports which I have done before on projects with lots of inputs and outputs.
 
-
-## CrashAvoidanceSystemPart4
+___
+## Crash Avoidance System Part 4
 
 ### Assignment Description
 This was an optional assignment in which we were tasked with adding a altimeter to our crash avoidance system. If our system was above 3 meters the light would not come on. 
@@ -174,8 +174,8 @@ This was an optional assignment in which we were tasked with adding a altimeter 
 
 ### Reflection
 In this assignment we got to use a third sensor on the same I2C the altimeter, is a useful sensor because it can measure temp, altitude, and barometric pressure. This will be useful for our project later because it will let us measure differnt data. The sensor is also compact which is very important because we can't have a very heavy payload.
-
-# FEABeamAssignmentParts1and2
+___
+## FEA Beam Assignment Parts 1 & 2
 
 ### Assignment Description
 Lucia Whitmore and I were tasked with making a 3d printed beam that could support the most weight. The parameters were that the beam had to hold the weight 180mm from the start of the beam, it couldn't weight more than 13g and it couldn't use any support material. Lucia and I started by brainstorming some ideas and researching bridges and cranes which had already achived the goal we were working towards. Next we both picked a design to work on and made it in OnShape, I choose to do a truss and Lucia made a triangle but switched to a box design because the triangle weighted far too much.
@@ -193,8 +193,8 @@ Lucia Whitmore and I were tasked with making a 3d printed beam that could suppor
 
 ### Reflection
 I think that Lucia and I chose a good method of design which let us complete two different designs at the same time and more options mean more better. Lucias design was better than mine because she was able to make small adjustments which mine couldnt do as well. My design was more complicated than Lucias which meant it took more time to do and didn't necessarily make it any better. If I was going to do this again I wouldve started by making my original extrusion from the mounting peice more adjustable because that would have allowed me to cut the most weight quickly.
-
-# FEABeamAssignmentPart3
+___
+## FEA Beam Assignment Part 3
 
 ### Assignment Description
 
@@ -236,8 +236,8 @@ This design will need more changes than design 1. It would be benfitial to angle
 ### Reflection
 The FEA is very useful for this assignment, without it we would have to wait for our printers to print before we could test. This would also be more expensive than FEA. FEA will be useful in the future because we will be able to test different materials before we launch rockets or balloons. 
 
-
-# FEABeamAssignmentPart4
+___
+## FEA Beam Assignment Part 4
 
 ### Assignment Description
 After completing part 3 we need to take what we learned and put it into our model. We are supposed to run multiple simulations after each change that we make to see if we have any improvement. Our design is pretty good right now but we will have to make small but important changes to the weak points to improve our design.
@@ -273,8 +273,8 @@ Because Lucia was out for most of the week we did this the main changes were all
 ### Reflection
 
 I had a hard time using the built in OnShape FEA tool because when I made upates it would take a long time for the simulation to tell me if it improved or not. I wish Lucia had been here for more time because we would've been able to improve our design a lot more. I Think that if we had more time I would have started a new design and remove the side peices because most of our strength came from our spine. We were able to get a single digit stress factor which I am happy with and I feel that we have a good chance of having one of the strongest beams in the class.
-
-# FEABeamAssignmentPart5
+___
+## FEA Beam Assignment Part 5
 
 ### Assignment Description
 
@@ -301,8 +301,8 @@ We kept the spine shape of it but instead of adding triangluar supports along th
 If I was to do this again I would have trusted my intution over the FEA more. I also would have started over a lot sooner than I did because the originally design got to a point where it couldn't be any more improved. I am happy with the design that I have come up with and I think that when we break the beams this will perform better than my first design.
 
 
-
-## LandingAreaPart1
+___
+## Landing Area Part 1
 
 ### Assignment Description
 We were tasked with making a code that could find the area of a triangle based off of 3 points. We were required to use functions and also needed the code to return an error instead of crashing if the wrong data was input (if you put a letter instead of a number). Data need to be input in the for (x,y) so you couldn't just do each point indivdually.
@@ -317,27 +317,8 @@ There was no wiring for this assignment.
 ### Reflection
 
 This assignement was more chalenging than previous assignments because we were learning skills that I had never done before. I liked doing this because I got to learn more about using math and logic and code. It was also useful to learn about try and except commands which would be very nice if we were making something where you have to input values. Without these it would cause the whole code to crash when data was input wrong. Making Our own functions is also very useful and a good way to make code more compact. This assignment could've been done without using functions but now that I know how to use them I wouldn't do it a different way.
-
-## LandingAreaPart2
-
-### Assignment Description
-
-### Evidence 
-![Evidence]()
-
-### Wiring
-![Wiring]()
-
-### Code
-[code]() 
-
-### Reflection
-
-
-
-
-
-## LandingAreaPart3
+___
+## Landing Area Part 2
 
 ### Assignment Description
 
