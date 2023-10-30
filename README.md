@@ -321,7 +321,7 @@ ___
 ## Landing Area Part 2
 
 ### Assignment Description
-
+For this assignment we were tasked with adding a picture of our theoretical landing area onto our OLED screens. We would still input our 3 verticies and calculate the area and print the triangle and its area on the graph. Our area must be accurate for any input and our output should be displayed as kilometers squared.
 ### Evidence 
 ![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Landing%20Area%20GIFS/Landing%20Area%202%20GIF.gif)
 
@@ -332,7 +332,7 @@ ___
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Landing%20Area/Part%202%20(Plotting)) 
 
 ### Reflection
-
+This was a challenging assignment because the code that is used with OLED screens is fairly new to me. The wiring was very simple, only requiring the OLED and the PICO. I had issues because I would fail to index lists in the correct places which was very annoying becauses there are a lot of lists. Also in the begining I still had my inputs in the "try except"  
 
 <details>
   <summary>Hidden</summary
