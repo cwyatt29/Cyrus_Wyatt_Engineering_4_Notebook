@@ -348,7 +348,7 @@ We were tasked with creating code that would translate our message in english in
 ### Wiring
 ![Wiring]()
 ### Code
-[code]() 
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/Part%201%20(Translation)) 
 ### Reflection
 
 ___
@@ -361,7 +361,7 @@ ___
 ### Wiring
 ![Wiring]()
 ### Code
-[code]() 
+[code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/Part%202%20(Transmission)) 
 ### Reflection
 
 ___
