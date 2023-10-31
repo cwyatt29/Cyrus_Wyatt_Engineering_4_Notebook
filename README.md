@@ -332,7 +332,7 @@ For this assignment we were tasked with adding a picture of our theoretical land
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Landing%20Area/Part%202%20(Plotting)) 
 
 ### Reflection
-This was a challenging assignment because the code that is used with OLED screens is fairly new to me. The wiring was very simple, only requiring the OLED and the PICO. I had issues because I would fail to index lists in the correct places which was very annoying becauses there are a lot of lists. Also in the begining I still had my inputs in the "try except"  
+This was a challenging assignment because the code that is used with OLED screens is fairly new to me. The wiring was very simple, only requiring the OLED and the PICO. I had issues because I would fail to index lists in the correct places which was very annoying becauses there are a lot of lists. Also in the begining I still had my inputs in the "try except" which caused the code to not let me bail out or save new code. To not have this problem only put the parts the could cause an error in the try except.  
 
 <details>
   <summary>Hidden</summary
