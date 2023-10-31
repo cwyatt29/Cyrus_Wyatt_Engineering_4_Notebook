@@ -1,0 +1,39 @@
+MORSE_DICT = { 'A':'.-', 'B':'-...',
+    'C':'-.-.', 'D':'-..', 'E':'.',
+    'F':'..-.', 'G':'--.', 'H':'....',
+    'I':'..', 'J':'.---', 'K':'-.-',
+    'L':'.-..', 'M':'--', 'N':'-.',
+    'O':'---', 'P':'.--.', 'Q':'--.-',
+    'R':'.-.', 'S':'...', 'T':'-',
+    'U':'..-', 'V':'...-', 'W':'.--',
+    'X':'-..-', 'Y':'-.--', 'Z':'--..',
+    '1':'.----', '2':'..---', '3':'...--',
+    '4':'....-', '5':'.....', '6':'-....',
+    '7':'--...', '8':'---..', '9':'----.',
+    '0':'-----', ', ':'--..--', '.':'.-.-.-',
+    '?':'..--..', '/':'-..-.', '-':'-....-',
+    '(':'-.--.', ')':'-.--.-'}
+# This is the dictionary for morse code, It tells the code what to turn the input into.
+
+def translator(message)
+    morsecode = ''
+    for letter in message.upper():
+        if letter != ' ':    
+            morsecode +=MORSE_DICT[letter] + ' '
+        else:
+            morsecode += ''
+    return morsecode
+
+# This is the function that changes the inputs into output
+
+while True:
+
+message = input('Enter Text')
+
+
+    try:
+        
+        print(morsecode)
+        
+    except:
+        print("Error")

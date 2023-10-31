@@ -6,9 +6,9 @@
 ## Table of Contents
 * [LED Blink](#LED-Blink)
 * [Launch Pad Part 1](#Launch-Pad-Part-1)
-* [LaunchPadPart 2](#Launch-Pad-Part-2)
-* [LaunchPadPart 3](#Launch-Pad-Part-3)
-* [LaunchPadPart 4](#Launch-Pad-Part-4)
+* [Launch Pad Part 2](#Launch-Pad-Part-2)
+* [Launch Pad Part 3](#Launch-Pad-Part-3)
+* [Launch Pad Part 4](#Launch-Pad-Part-4)
 * [Crash Avoidance Part 1](#Crash-Avoidance-System-Part-1)
 * [Crash Avoidance Part 2](#Crash-Avoidance-System-Part-2)
 * [Crash Avoidance Part 3](#Crash-Avoidance-System-Part-3)
@@ -19,6 +19,8 @@
 * [FEA Beam Assignment Part 5](#FEA-Beam-Assignment-Part-5)
 * [Landing Area Part 1](#Landing-Area-Part-1)
 * [Landing Area Part 2](#Landing-Area-Part-2)
+* [ Morse Code Part 1](#Morse-Code-Part-1)
+* [ Morse Code Part 2](#Morse-Code-Part-2)
 
 &nbsp;
 ___
@@ -334,6 +336,35 @@ For this assignment we were tasked with adding a picture of our theoretical land
 ### Reflection
 This was a challenging assignment because the code that is used with OLED screens is fairly new to me. The wiring was very simple, only requiring the OLED and the PICO. I had issues because I would fail to index lists in the correct places which was very annoying becauses there are a lot of lists. Also in the begining I still had my inputs in the "try except" which caused the code to not let me bail out or save new code. To not have this problem only put the parts the could cause an error in the try except.  
 
+___
+
+## Morse Code Part 1 
+
+### Assignment Description
+
+We were tasked with creating code that would translate our message in english into morse code. I utilized functions, and inputs which I had learned about in the last two assignments. I also used a dictionary which I hadn't used before.
+### Evidence 
+![Evidence]()
+### Wiring
+![Wiring]()
+### Code
+[code]() 
+### Reflection
+
+___
+
+
+## Morse Code Part 2 
+### Assignment Description
+### Evidence 
+![Evidence]()
+### Wiring
+![Wiring]()
+### Code
+[code]() 
+### Reflection
+
+___
 <details>
   <summary>Hidden</summary
                      

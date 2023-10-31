@@ -40,8 +40,6 @@ splash.append(plotting_label)
 LZADisp = None
 
 
-#triangle = Triangle(x1, y1, x2, y2, x3, y3, outline=0xFFFF00)
-#splash.append(triangle)
 
 def LZ(VX1, VX2, VX3):
        
@@ -77,12 +75,12 @@ while True:
         splash.append(LZADisp)
          
         display.show(splash)
-        time.sleep(5)
-        # Shows the Triangle and text
+        time.sleep(2)
+        # Shows the Triangle 
 
     except:
         print("VALUE ERROR RETRY")
         # This throws an error if the user inputs the wrong data.
 
     plotting_label.text = f"{area}km2"               
- 
+ #prints the area on the OLED
