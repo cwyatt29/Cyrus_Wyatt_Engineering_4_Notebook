@@ -326,7 +326,7 @@ For this assignment we were tasked with adding a picture of our theoretical land
 ![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Landing%20Area%20GIFS/Landing%20Area%202%20GIF.gif)
 
 ### Wiring
-![Wiring]()
+![Wiring](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Landing%20Area%20GIFS/LA2wiring.jpg)
 
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Landing%20Area/Part%202%20(Plotting)) 
