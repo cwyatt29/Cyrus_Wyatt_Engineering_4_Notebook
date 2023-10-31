@@ -7,23 +7,23 @@ print('test')
 
 ledred = digitalio.DigitalInOut(board.GP13)
 ledred.direction = digitalio.Direction.OUTPUT
-
+ # defines the red LED as an output and sets its pin as GP13 on the Pico.
 
 ledgreen = digitalio.DigitalInOut(board.GP18)
 ledgreen.direction = digitalio.Direction.OUTPUT
+# defines the green LED as an output and sets its pin as GP18 on the Pico.
 
 buttonpin = digitalio.DigitalInOut(board.GP0)
 buttonpin.direction = digitalio.Direction.INPUT
 buttonpin.pull = digitalio.Pull.UP
-                                        # defines the button as an input and sets its pin to GP0 on the Pico, it also tells it to pull up which means it will give a false value when depressed.
+# defines the button as an input and sets its pin to GP0 on the Pico, it also tells it to pull up which means it will give a false value when depressed.
+
 while True:
 
-    if buttonpin.value == False:  #when button value is false aka. pressed then it will run the while loop.
+    if buttonpin.value == False:  
+# when button value is false aka. pressed then it will run the while loop.
  
         while True:
-
-        
-
 
             N -= 1 
 
@@ -35,12 +35,13 @@ while True:
                 ledred.value = True
                 time.sleep(.5)
                 ledred.value = False
+# Blinks the LED once every second make sure to sleep it for.5 seconds if you do it every second it will blink every 2 seconds.
 
             if N <= 0:
                 print('LIFT OFF')
                 ledgreen.value = True
                 time.sleep(2.5)
                 break
-            
+# Turns on the green LED if N is less than or equal to 0, the light stays on for 2.5 seconds then turns off.
            
     

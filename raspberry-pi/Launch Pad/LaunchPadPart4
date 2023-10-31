@@ -4,27 +4,31 @@ import digitalio
 import pwmio
 from adafruit_motor import servo
 N = 11 
-print('test') #prints a message so I can quickly identify if there are errors
 
 ledred = digitalio.DigitalInOut(board.GP13)
 ledred.direction = digitalio.Direction.OUTPUT
-
+# Defines the red LED as an output and sets its pin as GP13 on the Pico.
 
 ledgreen = digitalio.DigitalInOut(board.GP18)
 ledgreen.direction = digitalio.Direction.OUTPUT
+# Defines the green LED as an output and sets its pin as GP18 on the Pico.
 
 buttonpin = digitalio.DigitalInOut(board.GP0)
 buttonpin.direction = digitalio.Direction.INPUT
 buttonpin.pull = digitalio.Pull.UP
+# Defines the button as an input and sets its pin to GP0 on the Pico, it also tells it to pull up which means it will give a false value when depressed.
 
-pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50) #defines the servo and sets its pin to GP5 on the Pico
-servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)        #sets its rotation limit to 180 degrees 
-servo1.angle = 0                 #before the button is pressed this makes sure the servo is at 0 degrees
+pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50)
+# Defines the servo and sets its pin to GP5 on the Pico.
+servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)     
+# Sets its rotation limit to 180 degrees.
+servo1.angle = 0                
+# Before the button is pressed this makes sure the servo is at 0 degrees.
 
 while True:
 
         if buttonpin.value == False:
-    
+# when button value is false aka. pressed then it will run the while loop.  
             while True:
 
             
@@ -39,14 +43,14 @@ while True:
                     ledred.value = True
                  time.sleep(.5)
                   ledred.value = False
-
+# Blinks the LED once every second make sure to sleep it for.5 seconds if you do it every second it will blink every 2 seconds.
 
                 if N <= 0:
                     
                     print('LIFT OFF')
                     ledgreen.value = True
-                    servo1.angle = 180 #rotate the servo when N is less than or equal to 0
+                    servo1.angle = 180
                     time.sleep(2.5)
                     break
-                
+# Turns on the green LED if N is less than or equal to 0, the light stays on for 2.5 seconds then turns off and rotate the servo when N is less than or equal to 0.
             
