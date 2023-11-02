@@ -346,7 +346,7 @@ We were tasked with creating code that would translate our message in english in
 ### Evidence 
 ![Evidence]()
 ### Wiring
-![Wiring]()
+No wiring was required for this assignment. 
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/Part%201%20(Translation)) 
 ### Reflection
