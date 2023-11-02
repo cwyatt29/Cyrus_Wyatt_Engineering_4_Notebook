@@ -15,7 +15,7 @@ MORSE_DICT = { 'A':'.-', 'B':'-...',
     '(':'-.--.', ')':'-.--.-'}
 # This is the dictionary for morse code, It tells the code what to turn the input into.
 
-def translator(message)
+def translator(message):
     morsecode = ''
     for letter in message.upper():
         if letter != ' ':    
@@ -26,14 +26,20 @@ def translator(message)
 
 # This is the function that changes the inputs into output
 
+  def runner():
+        message = input('Enter Text ')
+        result = translator(message.upper())
+       
+
 while True:
 
-message = input('Enter Text')
+  
+ 
+    print(result)
 
+   # try:        
+    #    print(morsecode)
+        
+ #   except:
+ #       print("Error")
 
-    try:
-        
-        print(morsecode)
-        
-    except:
-        print("Error")
