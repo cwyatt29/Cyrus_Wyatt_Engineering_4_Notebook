@@ -1,3 +1,4 @@
+import time
 MORSE_DICT = { 'A':'.-', 'B':'-...',
     'C':'-.-.', 'D':'-..', 'E':'.',
     'F':'..-.', 'G':'--.', 'H':'....',
@@ -23,21 +24,25 @@ def translator(message):
         else:
             morsecode += ''
     return morsecode
+# This is the function that changes the inputs into output.
 
-# This is the function that changes the inputs into output
 def runner(MSGIN):
     message = MSGIN
     result = translator(message.upper())
     print(result)
+# This prints out the result of our translation.
 
 while True:
     MSGIN = input('Enter Your Message ') 
-    
-    if MSGIN = -q:
-        break
+# Asks user to input a message when the code is run or after the try fails.    
+
+    if MSGIN == (f'-q'):
+        time.sleep(.5)
+        break    
+# This stops the code when you type -q.
 
     try:        
         result = runner(MSGIN)
-      
     except:
         print("Error")
+# This throws an error if the user inputs a charater that cannot be written in morse code.
