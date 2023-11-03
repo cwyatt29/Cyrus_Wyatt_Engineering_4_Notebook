@@ -25,21 +25,19 @@ def translator(message):
     return morsecode
 
 # This is the function that changes the inputs into output
-
-  def runner():
-        message = input('Enter Text ')
-        result = translator(message.upper())
-       
-
-while True:
-
-  
- 
+def runner(MSGIN):
+    message = MSGIN
+    result = translator(message.upper())
     print(result)
 
-   # try:        
-    #    print(morsecode)
-        
- #   except:
- #       print("Error")
+while True:
+    MSGIN = input('Enter Your Message ') 
+    
+    if MSGIN = -q:
+        break
 
+    try:        
+        result = runner(MSGIN)
+      
+    except:
+        print("Error")
