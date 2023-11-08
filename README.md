@@ -344,13 +344,13 @@ ___
 
 We were tasked with creating code that would translate our message in english into morse code. I utilized functions, and inputs which I had learned about in the last two assignments. I also used a dictionary which I hadn't used before.
 ### Evidence 
-![Evidence]()
+![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Morse%20Code%201%20GIF.gif)
 ### Wiring
 No wiring was required for this assignment. 
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/Part%201%20(Translation)) 
 ### Reflection
-
+This was a simple assignment because we were putting skills that we had learned into practice. The dictionary was a cool tool to use and saves us from declaring each variable by itself. This would be a cool code to use if we want to send encoded messages without having to learn morse code. 
 ___
 
 
