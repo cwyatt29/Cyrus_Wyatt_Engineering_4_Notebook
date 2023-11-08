@@ -13,16 +13,13 @@ MORSE_DICT = { 'A':'.-', 'B':'-...',
     '7':'--...', '8':'---..', '9':'----.',
     '0':'-----', ', ':'--..--', '.':'.-.-.-',
     '?':'..--..', '/':'-..-.', '-':'-....-',
-    '(':'-.--.', ')':'-.--.-'}
+    '(':'-.--.', ')':'-.--.-',' ':'/'}
 # This is the dictionary for morse code, It tells the code what to turn the input into.
 
 def translator(message):
     morsecode = ''
     for letter in message.upper():
-        if letter != ' ':    
-            morsecode +=MORSE_DICT[letter] + ' '
-        else:
-            morsecode += ''
+        morsecode +=MORSE_DICT[letter] + ' '
     return morsecode
 # This is the function that changes the inputs into output.
 
