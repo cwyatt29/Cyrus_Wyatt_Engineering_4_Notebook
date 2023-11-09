@@ -20,11 +20,10 @@ MORSE_DICT = { 'A':'.-', 'B':'-...',
 
 dot = 0.25
 dash = 3 * dot
+between_taps = dot
 withinChar = dot
-betChar = 3 * dot
 betWord = 7 * dot
 
-dotHash = {".":dot, "-":dash," ":betChar,"/":betWord}
 
 # This is the dictionary for morse code, It tells the code what to turn the input into.
 
@@ -36,21 +35,17 @@ def translator(message):
     return morsecode
 # This is the function that changes the inputs into output.
 
-def runner(MSGIN):
+def runner(MSGIN): 
     message = MSGIN
     result = translator(message.upper())
-    print(result)
-# This prints out the result of our translation.
+    return  result
 
 ledred = digitalio.DigitalInOut(board.GP15)
 ledred.direction = digitalio.Direction.OUTPUT 
  # defines the red LED as an output and sets its pin as GP15 on the Pico
 
-
-ledred.value(0)
+ledred.value = False
 # Makes sure that the LED is off before transmitting 
-
-
 
 while True:
     MSGIN = input('Enter Your Message ') 
@@ -63,12 +58,31 @@ while True:
 
     try:        
         result = runner(MSGIN)
+        print(result)
     except:
         print("Error")
 # This throws an error if the user inputs a charater that cannot be written in morse code.
-
+    
     for morseval in result:
-        ledred.value(0)
-        time.sleep(dotHash[moreseval])
-        ledred.value(1)
-        time.sleep(.25)
+        
+
+        if result == "."
+        ledred.value = True
+        time.sleep(dot)
+        
+            elif result == "-"
+            ledred.value = True
+            time.sleep(dot*3)
+
+            elif result == " "
+            ledred.value = False
+            time.sleep(dot)
+
+            elif result == "/"
+            ledred.value = False
+            time.sleep(7*dot)
+
+            ledred.value = False
+       
+       
+       time.sleep(.5) if dotHash[morseval] == 0 else time.sleep(.25)
