@@ -17,14 +17,17 @@ MORSE_DICT = { 'A':'.-', 'B':'-...',
     '0':'-----', ', ':'--..--', '.':'.-.-.-',
     '?':'..--..', '/':'-..-.', '-':'-....-',
     '(':'-.--.', ')':'-.--.-',' ':'/'}
-dotHash = {".":dot, "-":dash," ":betChar,"/":betWord}
-# This is the dictionary for morse code, It tells the code what to turn the input into.
 
 dot = 0.25
 dash = 3 * dot
 withinChar = dot
 betChar = 3 * dot
 betWord = 7 * dot
+
+dotHash = {".":dot, "-":dash," ":betChar,"/":betWord}
+
+# This is the dictionary for morse code, It tells the code what to turn the input into.
+
 
 def translator(message):
     morsecode = ''
@@ -46,6 +49,9 @@ ledred.direction = digitalio.Direction.OUTPUT
 
 ledred.value(0)
 # Makes sure that the LED is off before transmitting 
+
+
+
 while True:
     MSGIN = input('Enter Your Message ') 
 # Asks user to input a message when the code is run or after the try fails.    
@@ -60,3 +66,9 @@ while True:
     except:
         print("Error")
 # This throws an error if the user inputs a charater that cannot be written in morse code.
+
+    for morseval in result:
+        ledred.value(0)
+        time.sleep(dotHash[moreseval])
+        ledred.value(1)
+        time.sleep(.25)

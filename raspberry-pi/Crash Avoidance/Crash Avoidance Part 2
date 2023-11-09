@@ -13,7 +13,7 @@ ledred = digitalio.DigitalInOut(board.GP13)
 ledred.direction = digitalio.Direction.OUTPUT  # defines the red LED as an output and sets its pin as GP13 on the Pico
 
 while True:
-
+    
     x = round(mpu.acceleration[0],3)
     y = round(mpu.acceleration[1],3)
     z = round(mpu.acceleration[2],3)
