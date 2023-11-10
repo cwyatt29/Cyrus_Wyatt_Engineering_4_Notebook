@@ -23,15 +23,15 @@ dash = 3 * dot
 between_taps = dot
 withinChar = dot
 betWord = 7 * dot
-
+# Modifier for the flasher.
 
 # This is the dictionary for morse code, It tells the code what to turn the input into.
 
 
 def translator(message):
-    morsecode = ''
+    morsecode = ' '
     for letter in message.upper():
-        morsecode +=MORSE_DICT[letter] + ' '
+        morsecode +=MORSE_DICT[letter] + '  '
     return morsecode
 # This is the function that changes the inputs into output.
 
@@ -60,29 +60,31 @@ while True:
         result = runner(MSGIN)
         print(result)
     except:
-        print("Error")
+        print("Error Reprinting Last Message")
 # This throws an error if the user inputs a charater that cannot be written in morse code.
     
     for morseval in result:
-        
 
-        if result == "."
-        ledred.value = True
-        time.sleep(dot)
-        
-            elif result == "-"
+        if morseval == ".":
             ledred.value = True
-            time.sleep(dot*3)
-
-            elif result == " "
-            ledred.value = False
             time.sleep(dot)
-
-            elif result == "/"
             ledred.value = False
-            time.sleep(7*dot)
-
+        
+        elif morseval == "-":
+            ledred.value = True
+            time.sleep(dash)
             ledred.value = False
+
+        elif morseval == " ":
+            ledred.value = False
+            time.sleep(between_taps)
+
+        elif morseval == "/":
+            ledred.value = False
+            time.sleep(betWord)
+
+        time.sleep(dot)
+# This makes the message blink out on the LED. Each segment does either a . , - , / , or " "
        
        
-       time.sleep(.5) if dotHash[morseval] == 0 else time.sleep(.25)
+     
