@@ -19,8 +19,10 @@
 * [FEA Beam Assignment Part 5](#FEA-Beam-Assignment-Part-5)
 * [Landing Area Part 1](#Landing-Area-Part-1)
 * [Landing Area Part 2](#Landing-Area-Part-2)
-* [ Morse Code Part 1](#Morse-Code-Part-1)
-* [ Morse Code Part 2](#Morse-Code-Part-2)
+* [Morse Code Part 1](#Morse-Code-Part-1)
+* [Morse Code Part 2](#Morse-Code-Part-2)
+* [Data Part 1](#Data-Part-1)
+* [Data Part 2](#Data-Part-2)
 
 &nbsp;
 ___
@@ -365,11 +367,34 @@ We were assigned with used our morse code part one and making the result blink o
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/Part%202%20(Transmission)) 
 ### Reflection
 I used a for loop which took the result of the morse code generation and read it. Then I used if and elifs to tell the code what to do with the inputs. The most annoying part was getting the timing correct with the spaces between taps and between letters. I used variables which I defined at the to make it easy to edit.
+
 ___
+
+## Data Part 1
+### Assignment Description
+### Evidence 
+![Evidence]()
+### Wiring
+![Wiring]()
+### Code
+[code]() 
+### Reflection
+___
+
+## Data Part 2
+### Assignment Description
+### Evidence 
+![Evidence]()
+### Wiring
+![Wiring]()
+### Code
+[code]() 
+### Reflection
+
+___
+
 <details>
   <summary>Hidden</summary
-                     
-
 ## Raspberry_Pi_Assignment_Template
 ### Assignment Description
 ### Evidence 
