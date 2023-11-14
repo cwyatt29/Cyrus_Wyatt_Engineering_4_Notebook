@@ -371,7 +371,11 @@ I used a for loop which took the result of the morse code generation and read it
 ___
 
 ## Data Part 1
+
+
 ### Assignment Description
+We were tasked with reusing our previous crash avoidance assignment and recording its data on a spread sheet. It was also 
+
 ### Evidence 
 ![Evidence]()
 ### Wiring
