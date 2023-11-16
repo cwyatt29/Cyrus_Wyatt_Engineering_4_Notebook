@@ -377,14 +377,20 @@ ___
 We were tasked with reusing our previous crash avoidance assignment and recording its data on a spread sheet. It was also required that we make it headless which means that it can be powered without being attached to the computer. 
 
 ### Evidence 
-![Evidence]()
+![Evidence](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Data%201%20video.gif)
 ### Wiring
-![Wiring]()
+![Wiring](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/images/Data1Wiring.jpg)
+
+
+
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Data/Part%201%20(Storage)) 
+
+### Data
+[data.csv link](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/data.csv)
 ### Reflection
 
-This will be useful when we start making our final projects because we will need to record data from our projectile. 
+This will be useful when we start making our final projects because we will need to record data from our projectile. This would be important for determining distance speed and orientation of our object. 
 ___
 
 ## Data Part 2
