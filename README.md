@@ -395,14 +395,19 @@ ___
 
 ## Data Part 2
 ### Assignment Description
+
+We were tasked with creating graphs for the data that we had collected in the prevoius assignment. We will import the date into a google sheets and use the graph tool. This will be useful later in the year when we come back and analyze collected data. 
+
+[Link to Google Doc](https://docs.google.com/spreadsheets/d/12s9djO0CVLxfqS1uW9EMTLFy_o43ZAgojpbE5ivMXk8/edit#gid=0)
 ### Evidence 
 ![Evidence]()
+
 ### Wiring
-![Wiring]()
+No wiring needed for this assignment
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Data/Part%202%20(Analysis)) 
 ### Reflection
-
+This is an important skill to know. Data is useful in numbers but it is more useful if we can look at it in the form of a graph. 
 ___
 
 <details>
