@@ -407,7 +407,7 @@ No wiring needed for this assignment
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Data/Part%202%20(Analysis)) 
 ### Reflection
-This is an important skill to know. Data is useful in numbers but it is more useful if we can look at it in the form of a graph. 
+This is an important skill to know. Data is useful in numbers but it is more useful if we can look at it in the form of a graph. THis will be important later in the year when we need to analyze collected data and make adjustments to our project. They will also be good for documentation because they are easy to read and display a good amount of important information.
 ___
 
 <details>
