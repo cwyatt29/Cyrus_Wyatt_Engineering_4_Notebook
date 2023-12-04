@@ -39,7 +39,7 @@ use vs code to make the onboard LED on the Rasberry Pi Pico blink.
 No wiring was needed because the Pico has an onboard LED which can blink.
 ### Code
 
-[Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/LED_blink.py)
+[Code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/LED_blink.py)
 ### Reflection
 This assignment was very simple most of the command scripts we needed were in the instructions so all that was needed was to order them correctly and run the code. This code would be useful if you want to make sure your pico is functioning properly before launching a rocket or another flying projectile. I also added a switch to my wiring which isn't necessary but it makes it easier to turn on and off.
 
@@ -352,7 +352,7 @@ No wiring was required for this assignment.
 ### Code
 [code](https://github.com/cwyatt29/Cyrus_Wyatt_Engineering_4_Notebook/blob/main/raspberry-pi/Morse%20Code/Part%201%20(Translation)) 
 ### Reflection
-This was a simple assignment because we were putting skills that we had learned into practice. The dictionary was a cool tool to use and saves us from declaring each variable by itself. This would be a cool code to use if we want to send encoded messages without having to learn morse code. 
+doing this assignment was important because it taught us useful code skills such as the hash. We also got more practice with writing multi-step functions and collecting user inputs. This assignment caused me some confusion because I didn't understand where I needed to put my input line. I had orginally had it inside of the function which cause the code to run errorless but wouldn't let me input my message. I fixed this by creating a new function that would run separately from the translator code. This function was responsible for collecting the inputs when code was run.
 ___
 
 
